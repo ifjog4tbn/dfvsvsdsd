@@ -4049,7 +4049,7 @@
     "Limitless Shadow": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://134973909366355",
-        "Rarity": "Nightmare",
+        "Rarity": "Modded",
         "PlacePrice": 14500,
         "Offset": 0,
         "Max": 10,
