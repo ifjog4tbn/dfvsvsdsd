@@ -2137,6 +2137,33 @@
             }
         ]
     },
+"SpacePuppet": {
+        "Type": "Splash",
+        "Image": "rbxassetid://133820914426906",
+        "Rarity": "Modded",
+        "PlacePrice": 2000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.1,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 1000,
+                "Cooldown": 2.534
+            },
+            {
+                "Price": 20000,
+                "Range": 45,
+                "Damage": 1500,
+                "Cooldown": 1.467
+            }
+        ]
+    },
     "Abyssal Foxy": {
         "Type": "Continuous Slow",
         "Image": "rbxassetid://18578478327",
