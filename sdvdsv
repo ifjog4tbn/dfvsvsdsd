@@ -4874,8 +4874,83 @@
         ]
     },
 
+"Galactic Freddy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://130473714935090",
+        "Rarity": "Galactic",
+        "PlacePrice": 10000,
+        "Offset": 0,
+        "Max": 3,
+        "Passive": {"Name": "Lethal Precision", "Description": "Deal +100% damage to stunned enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+         "Upgrades": [
+        {
+            "Price": 0,
+            "Range": 30,
+            "Damage": 11500,
+            "StunDamage": 2,
+            "Cooldown": 2
+        },
+        {
+            "Price": 13500,
+            "Range": 35,
+            "Damage": 14555,
+            "StunDamage": 2,
+            "Cooldown": 1.51
+        },
+        {
+            "Price": 15555,
+            "Range": 40,
+            "Damage": 17771,
+            "StunDamage": 2,
+            "Cooldown": 1.35
 
+        }
+        ]
+    },
 
+"Space Freddy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://75913703404165",
+        "Rarity": "Modded",
+        "PlacePrice": 7751,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Lethal Precision", "Description": "Deal +100% damage to stunned enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+         "Upgrades": [
+        {
+            "Price": 0,
+            "Range": 31,
+            "Damage": 5123,
+            "StunDamage": 2,
+            "Cooldown": 2
+        },
+        {
+            "Price": 10000,
+            "Range": 37,
+            "Damage": 7762,
+            "StunDamage": 2,
+            "Cooldown": 1.51
+        },
+        {
+            "Price": 12000,
+            "Range": 49,
+            "Damage": 10209,
+            "StunDamage": 2,
+            "Cooldown": 1.35
+
+        }
+        ]
+    },
 
 "Deadeye Freddy": {
         "Type": "Splash",
