@@ -38,6 +38,123 @@
             }
         ]
     },
+    "DominusFreddy": {
+        "Type": "Splash Stun",
+        "Image": "rbxassetid://16620053009",
+        "Rarity": "Galactic",
+        "PlacePrice": 12111,
+        "Max": 2,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 1500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 500,
+                "Range": 26,
+                "Damage": 3555,
+                "Cooldown": 0.53
+            },
+            {
+                "Price": 750,
+                "Range": 30,
+                "Damage": 7880,
+                "Cooldown": 0.46
+            },
+            {
+                "Price": 1250,
+                "Range": 45,
+                "Damage": 12500,
+                "Cooldown": 0.40
+            }
+        ]
+    },
+    "ValkyrieBonnie": {
+        "Type": "Splash",
+        "Image": "rbxassetid://16620053009",
+        "Rarity": "Modded",
+        "PlacePrice": 750,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 500,
+                "Range": 26,
+                "Damage": 1000,
+                "Cooldown": 0.67
+            },
+            {
+                "Price": 750,
+                "Range": 30,
+                "Damage": 3000,
+                "Cooldown": 0.51
+            },
+            {
+                "Price": 1250,
+                "Range": 45,
+                "Damage": 5500,
+                "Cooldown": 0.46
+            }
+        ]
+    },
+    "RocketChicaNoob": {
+        "Type": "Single",
+        "Image": "rbxassetid://16620053009",
+        "Rarity": "Uncommon",
+        "PlacePrice": 150,
+        "Max": 10,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 1000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 500,
+                "Range": 35,
+                "Damage": 2000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 750,
+                "Range": 56,
+                "Damage": 3000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 1250,
+                "Range": 60,
+                "Damage": 5000,
+                "Cooldown": 1
+            }
+        ]
+    },
     "Chica": {
         "Type": "Explosion",
         "Image": "rbxassetid://16620303027",
