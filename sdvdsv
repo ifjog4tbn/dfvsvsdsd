@@ -38,9 +38,48 @@
             }
         ]
     },
+    "GuestTrap": {
+        "Type": "AOE Stun",
+        "Image": "rbxassetid://84841802651209",
+        "Rarity": "Galactic",
+        "PlacePrice": 35112,
+        "Max": 2,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 1500,
+                "Cooldown": 0.073
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 3555,
+                "Cooldown": 0.061
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 7880,
+                "Cooldown": 0.047
+            },
+            {
+                "Price": 50000,
+                "Range": 50,
+                "Damage": 12500,
+                "Cooldown": 0.03
+            }
+        ]
+    },
     "DominusFreddy": {
         "Type": "Splash Stun",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://135875045794648",
         "Rarity": "Galactic",
         "PlacePrice": 12111,
         "Max": 2,
@@ -79,7 +118,7 @@
     },
     "ValkyrieBonnie": {
         "Type": "Splash",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://110966913772772",
         "Rarity": "Modded",
         "PlacePrice": 750,
         "Max": 4,
@@ -118,7 +157,7 @@
     },
     "RocketChicaNoob": {
         "Type": "Single",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://129634784404593",
         "Rarity": "Uncommon",
         "PlacePrice": 150,
         "Max": 10,
