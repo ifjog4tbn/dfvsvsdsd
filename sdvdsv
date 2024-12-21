@@ -79,7 +79,7 @@
     },
     "FrozenFreddy": {
         "Type": "Splash Stun",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://86261094384098",
         "Rarity": "Cosmic",
         "PlacePrice": 55000,
         "Max": 2,
@@ -118,7 +118,7 @@
     },
     "IceGuy": {
         "Type": "Stun",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://78115986203995",
         "Rarity": "Modded",
         "PlacePrice": 600,
         "Max": 5,
@@ -157,7 +157,7 @@
     },
     "IceFreddy": {
         "Type": "Dual Stun",
-        "Image": "rbxassetid://16620053009",
+        "Image": "rbxassetid://97408257865470",
         "Rarity": "Modded",
         "PlacePrice": 15500,
         "Max": 2,
