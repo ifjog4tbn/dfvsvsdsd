@@ -77,6 +77,45 @@
             }
         ]
     },
+    "FrozenFreddy": {
+        "Type": "AOE Stun",
+        "Image": "rbxassetid://84841802651209",
+        "Rarity": "Cosmic",
+        "PlacePrice": 35112,
+        "Max": 2,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 999,
+                "Cooldown": 0.073
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 1250,
+                "Cooldown": 0.061
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 1500,
+                "Cooldown": 0.047
+            },
+            {
+                "Price": 50000,
+                "Range": 50,
+                "Damage": 2250,
+                "Cooldown": 0.03
+            }
+        ]
+    },
     "DominusFreddy": {
         "Type": "Splash Stun",
         "Image": "rbxassetid://135875045794648",
