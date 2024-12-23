@@ -38,6 +38,123 @@
             }
         ]
     },
+    "SantaFreddy": {
+        "Type": "AOE",
+        "Image": "rbxassetid://95334696549399",
+        "Rarity": "Galactic",
+        "PlacePrice": 13550,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range":35,
+                "Damage": 5500,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 9550,
+                "Range": 40,
+                "Damage": 6950,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 13550,
+                "Range": 45,
+                "Damage": 9890,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 15500,
+                "Range": 45,
+                "Damage": 13550,
+                "Cooldown": 1.8
+            }
+        ]
+    },
+    "IceKing": {
+        "Type": "Splash Stun",
+        "Image": "rbxassetid://133029918553825",
+        "Rarity": "Modded",
+        "PlacePrice": 4550,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 4500,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 9550,
+                "Range": 35,
+                "Damage": 6500,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 13550,
+                "Range": 35,
+                "Damage": 9500,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 15500,
+                "Range": 40,
+                "Damage": 10500,
+                "Cooldown": 2.5
+            }
+        ]
+    },
+    "GravelordIceFoxy": {
+        "Type": "Continuous Stun ",
+        "Image": "rbxassetid://81901754858195",
+        "Rarity": "Galactic",
+        "PlacePrice": 25500,
+        "Max": 1,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range":35,
+                "Damage": 13550,
+                "Cooldown": 4.5
+            },
+            {
+                "Price": 9550,
+                "Range": 40,
+                "Damage": 17550,
+                "Cooldown": 4.5
+            },
+            {
+                "Price": 13550,
+                "Range": 45,
+                "Damage": 22550,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 15500,
+                "Range": 50,
+                "Damage": 25550,
+                "Cooldown": 1.8
+            }
+        ]
+    },
     "GuestTrap": {
         "Type": "AOE Stun",
         "Image": "rbxassetid://84841802651209",
