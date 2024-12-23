@@ -39,8 +39,8 @@
         ]
     },
     "SantaFreddy": {
-        "Type": "AOE",
-        "Image": "rbxassetid://95334696549399",
+        "Type": "AOE Slow",
+        "Image": "rbxassetid://16620053009",
         "Rarity": "Galactic",
         "PlacePrice": 13550,
         "Max": 3,
@@ -61,19 +61,19 @@
                 "Price": 9550,
                 "Range": 40,
                 "Damage": 6950,
-                "Cooldown": 1.5
+                "Cooldown": 1.4
             },
             {
                 "Price": 13550,
                 "Range": 45,
                 "Damage": 9890,
-                "Cooldown": 1.5
+                "Cooldown": 1.3
             },
             {
                 "Price": 15500,
                 "Range": 45,
-                "Damage": 13550,
-                "Cooldown": 1.8
+                "Damage": 14550,
+                "Cooldown": 1.1
             }
         ]
     },
