@@ -133,25 +133,25 @@
                 "Price": 0,
                 "Range":35,
                 "Damage": 13550,
-                "Cooldown": 4.5
-            },
-            {
-                "Price": 9550,
-                "Range": 40,
-                "Damage": 17550,
-                "Cooldown": 4.5
-            },
-            {
-                "Price": 13550,
-                "Range": 45,
-                "Damage": 22550,
                 "Cooldown": 3.5
             },
             {
+                "Price": 9550,
+                "Range": 45,
+                "Damage": 17550,
+                "Cooldown": 3.1
+            },
+            {
+                "Price": 13550,
+                "Range": 55,
+                "Damage": 22550,
+                "Cooldown": 2.3
+            },
+            {
                 "Price": 15500,
-                "Range": 50,
+                "Range": 60,
                 "Damage": 25550,
-                "Cooldown": 1.8
+                "Cooldown": 1.1
             }
         ]
     },
@@ -206,30 +206,30 @@
             "Y": 0,
             "Z": 0
         },
-        "Upgrades": [
+               "Upgrades": [
             {
                 "Price": 0,
                 "Range": 25,
                 "Damage": 1250,
-                "Cooldown": 3.5
+                "Cooldown": 2.8
             },
             {
                 "Price": 45000,
                 "Range": 35,
                 "Damage": 3550,
-                "Cooldown": 3.5
+                "Cooldown": 2.4
             },
             {
                 "Price": 50000,
                 "Range": 35,
                 "Damage": 10000,
-                "Cooldown": 3.5
+                "Cooldown": 2.3
             },
             {
                 "Price": 60000,
                 "Range": 40,
                 "Damage": 15500,
-                "Cooldown": 3.5
+                "Cooldown": 2.1
             }
         ]
     },
