@@ -38,6 +38,94 @@
             }
         ]
     },
+    "Old Man Consequences": {
+        "Type": "AOE + Passive",
+        "Image": "rbxassetid://95479691284429",
+        "Rarity": "Apex",
+        "PlacePrice": 11340,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Hook and Line", "Description": "Reels in an enemy every few seconds, erasing them completely. Bosses are stunned and deals x75 damage to them."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 1000,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 22222,
+                "Range": 28,
+                "Damage": 1250,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 33333,
+                "Range": 32,
+                "Damage": 1500,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 44444,
+                "Range": 35,
+                "Damage": 1800,
+                "Cooldown": 0.1
+            }
+        ]
+    },
+    "Old Man Krampus": {
+        "Type": "AOE Slow + Passive",
+        "Image": "rbxassetid://138508234321719",
+        "Rarity": "Apex",
+        "PlacePrice": 11340,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Tidings Of Charcoal", "Description": "Every 3 seconds deals splash damage to a group of enemies equal to 30x this units damage in poison. All enemies in range are slowed by 50%."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 1100,
+                "Cooldown": 0.1,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 22222,
+                "Range": 27,
+                "Damage": 1300,
+                "Cooldown": 0.1,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 33333,
+                "Range": 30,
+                "Damage": 1600,
+                "Cooldown": 0.1,
+                "Slow": 0.5,
+                "SlowTime": 2
+            },
+            {
+                "Price": 44444,
+                "Range": 35,
+                "Damage": 2000,
+                "Cooldown": 0.1,
+                "Slow": 0.5,
+                "SlowTime": 2
+            }
+        ]
+    },
     "Developer": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://76066387299146",
