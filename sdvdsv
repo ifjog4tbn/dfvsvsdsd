@@ -39,7 +39,7 @@
         ]
     },
     "Sinister Ice King": {
-        "Type": "Splash Slow",
+        "Type": "Splash + Slow",
         "Image": "rbxassetid://75314233456710",
         "Rarity": "Galactic",
         "PlacePrice": 20000,
