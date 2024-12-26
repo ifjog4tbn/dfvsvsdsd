@@ -38,6 +38,63 @@
             }
         ]
     },
+    "Developer": {
+        "Type": "Cone AOE + Slow",
+        "Image": "rbxassetid://76066387299146",
+        "Rarity": "Modded",
+        "PlacePrice": 50000,
+        "Offset": 0.65,
+        "Max": 1,
+        "Passive": {"Name": "DEV", "Description": "KILL EVERY ENEMIES and slowed by 250%."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 15000,
+                "Cooldown": 5,
+                "Slow": 0.50,
+                "SlowTime": 5
+            },
+            {
+                "Price": 22000,
+                "Range": 25,
+                "Damage": 35000,
+                "Cooldown": 4,
+                "Slow": 0.80,
+                "SlowTime": 10
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 75000,
+                "Cooldown": 4,
+                "Slow": 1,
+                "SlowTime": 15
+            },
+            {
+                "Price": 30000,
+                "Range": 50,
+                "Damage": 100000,
+                "Cooldown": 1.5,
+                "Slow": 2,
+                "SlowTime": 20
+            },
+            {
+                "Price": 250000,
+                "Range": 100,
+                "Damage": 500000,
+                "Cooldown": 5,
+                "Slow": 10,
+                "SlowTime": 25
+            }
+        ]
+    },
+    "Prese
     "Black Ice Freddy": {
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://86213031666835",
