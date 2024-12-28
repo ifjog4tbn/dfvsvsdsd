@@ -39,7 +39,7 @@
         ]
     },
     "Jetpack Freddy": {
-        "Type": "AOE + Damage",
+        "Type": "AOE",
         "Image": "rbxassetid://91429827242337",
         "Rarity": "Modded",
         "PlacePrice": 4500,
@@ -57,7 +57,7 @@
                 "Range": 25,
                 "Damage": 9500,
                 "Cooldown": 1.3,
-                "Slow": 0.75
+                "Slow": 0.75,
                 "SlowTime": 1
             },
             {
@@ -65,7 +65,7 @@
                 "Range": 35,
                 "Damage": 13000,
                 "Cooldown": 1.3,
-                "Slow": 0.75
+                "Slow": 0.75,
                 "SlowTime": 1
             },
             {
@@ -73,7 +73,7 @@
                 "Range": 45,
                 "Damage": 15000,
                 "Cooldown":1.3,
-                "Slow": 0.75
+                "Slow": 0.75,
                 "SlowTime": 1
 
             },
@@ -82,7 +82,7 @@
                 "Range": 50,
                 "Damage": 20000,
                 "Cooldown": 1.3,
-                "Slow": 0.75
+                "Slow": 0.75,
                 "SlowTime": 1
             }
         ]
