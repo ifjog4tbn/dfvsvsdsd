@@ -38,6 +38,146 @@
             }
         ]
     },
+    "Jetpack Freddy": {
+        "Type": "AOE + Damage",
+        "Image": "rbxassetid://91429827242337",
+        "Rarity": "Modded",
+        "PlacePrice": 9500,
+        "Offset": 0,
+        "Max": 3,
+        "NoEnemyAttack": false,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 5000,
+                "Cooldown": 1,
+                "DamageBoost": 5.5,
+                "CooldownBoost": 0.10
+            },
+            {
+                "Price": 15000,
+                "Range": 35,
+                "Damage": 7000,
+                "Cooldown": 1,
+                "DamageBoost": 0.20,
+                "CooldownBoost": 0.20
+            },
+            {
+                "Price": 25000,
+                "Range": 45,
+                "Damage": 9000,
+                "Cooldown":1,
+                "CooldownBoost": 0.30,
+                "DamageBoost": 15.5
+
+            },
+            {
+                "Price": 35000,
+                "Range": 50,
+                "Damage": 12000,
+                "Cooldown": 1,
+                "CooldownBoost": 0.40,
+                "DamageBoost": 20.5
+            }
+        ]
+    },
+    "Unfinished Freddy": {
+        "Type": "AOE",
+        "Image": "rbxassetid://119691757225895",
+        "Rarity": "Modded",
+        "PlacePrice": 1500,
+        "Offset": 0,
+        "Max": 3,
+        "NoEnemyAttack": true,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 0,
+                "Cooldown": 1,
+                "DamageBoost": 5.5,
+                "CooldownBoost": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 0,
+                "Cooldown": 1,
+                "DamageBoost": 10.5,
+                "CooldownBoost": 0.3
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 0,
+                "Cooldown": 1,
+                "DamageBoost": 15.5,
+                "CooldownBoost": 0.2
+            },
+            {
+                "Price": 55000,
+                "Range": 50,
+                "Damage": 0,
+                "Cooldown": 1,
+                "DamageBoost": 20.5,
+                "CooldownBoost": 0.1
+            }
+        ]
+    },
+    "Enhanced Freddy": {
+        "Type": "Splash Stun",
+        "Image": "rbxassetid://102427737907141",
+        "Rarity": "Cosmic",
+        "PlacePrice": 21000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range":40,
+                "Damage": 18200,
+                "Cooldown": 1.6,
+                "Slow": 0.1
+            },
+            {
+                "Price": 25550,
+                "Range": 45,
+                "Damage": 21950,
+                "Cooldown": 1.5,
+                "Slow": 0.1
+            },
+            {
+                "Price": 33550,
+                "Range": 55,
+                "Damage": 25890,
+                "Cooldown": 1.5,
+                "Slow": 0.1
+            },
+            {
+                "Price": 45500,
+                "Range": 65,
+                "Damage": 28550,
+                "Cooldown": 1.5,
+                "Slow": 0.1
+            }
+        ]
+    },
     "Sinister Ice King": {
         "Type": "Splash + Slow",
         "Image": "rbxassetid://75314233456710",
