@@ -42,7 +42,7 @@
         "Type": "AOE + Damage",
         "Image": "rbxassetid://91429827242337",
         "Rarity": "Modded",
-        "PlacePrice": 9500,
+        "PlacePrice": 4500,
         "Offset": 0,
         "Max": 3,
         "NoEnemyAttack": false,
@@ -55,35 +55,35 @@
             {
                 "Price": 0,
                 "Range": 25,
-                "Damage": 5000,
-                "Cooldown": 1,
-                "DamageBoost": 5.5,
-                "CooldownBoost": 0.10
+                "Damage": 9500,
+                "Cooldown": 1.3,
+                "Slow": 0.75
+                "SlowTime": 1
             },
             {
                 "Price": 15000,
                 "Range": 35,
-                "Damage": 7000,
-                "Cooldown": 1,
-                "DamageBoost": 0.20,
-                "CooldownBoost": 0.20
+                "Damage": 13000,
+                "Cooldown": 1.3,
+                "Slow": 0.75
+                "SlowTime": 1
             },
             {
                 "Price": 25000,
                 "Range": 45,
-                "Damage": 9000,
-                "Cooldown":1,
-                "CooldownBoost": 0.30,
-                "DamageBoost": 15.5
+                "Damage": 15000,
+                "Cooldown":1.3,
+                "Slow": 0.75
+                "SlowTime": 1
 
             },
             {
                 "Price": 35000,
                 "Range": 50,
-                "Damage": 12000,
-                "Cooldown": 1,
-                "CooldownBoost": 0.40,
-                "DamageBoost": 20.5
+                "Damage": 20000,
+                "Cooldown": 1.3,
+                "Slow": 0.75
+                "SlowTime": 1
             }
         ]
     },
@@ -91,10 +91,10 @@
         "Type": "AOE",
         "Image": "rbxassetid://119691757225895",
         "Rarity": "Modded",
-        "PlacePrice": 1500,
+        "PlacePrice": 15000,
         "Offset": 0,
-        "Max": 3,
-        "NoEnemyAttack": true,
+        "Max": 10,
+        "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 25%"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -103,35 +103,35 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 25,
+                "Range": 35,
                 "Damage": 0,
-                "Cooldown": 1,
-                "DamageBoost": 5.5,
-                "CooldownBoost": 0.5
+                "Cooldown": 0.25,
+                "CooldownBoost": 0.97,
+                "Slow": 0.75
             },
             {
                 "Price": 25000,
-                "Range": 35,
+                "Range": 37,
                 "Damage": 0,
-                "Cooldown": 1,
-                "DamageBoost": 10.5,
-                "CooldownBoost": 0.3
+                "Cooldown": 0.25,
+                "CooldownBoost": 0.65,
+                "Slow": 0.75
             },
             {
-                "Price": 35000,
-                "Range": 45,
+                "Price": 25000,
+                "Range": 48,
                 "Damage": 0,
-                "Cooldown": 1,
-                "DamageBoost": 15.5,
-                "CooldownBoost": 0.2
+                "Cooldown": 0.25,
+                "CooldownBoost": 0.52,
+                "Slow": 0.75
             },
             {
-                "Price": 55000,
+                "Price": 25000,
                 "Range": 50,
                 "Damage": 0,
-                "Cooldown": 1,
-                "DamageBoost": 20.5,
-                "CooldownBoost": 0.1
+                "Cooldown": 0.25,
+                "CooldownBoost": 0.4,
+                "Slow": 0.75
             }
         ]
     },
@@ -141,7 +141,7 @@
         "Rarity": "Cosmic",
         "PlacePrice": 21000,
         "Max": 3,
-        "Offset": 0.3,
+        "Offset": 0,
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -152,29 +152,33 @@
                 "Price": 0,
                 "Range":40,
                 "Damage": 18200,
-                "Cooldown": 1.6,
+                "Cooldown": 2
                 "Slow": 0.1
+                "SlowTime": 1
             },
             {
                 "Price": 25550,
                 "Range": 45,
                 "Damage": 21950,
-                "Cooldown": 1.5,
-                "Slow": 0.1
+                "Cooldown": 2
+                "Slow": 0,
+                "SlowTime": 0.5
             },
             {
                 "Price": 33550,
                 "Range": 55,
                 "Damage": 25890,
-                "Cooldown": 1.5,
-                "Slow": 0.1
+                "Cooldown": 2
+                "Slow": 0,
+                "SlowTime": 0.5
             },
             {
                 "Price": 45500,
                 "Range": 65,
                 "Damage": 28550,
-                "Cooldown": 1.5,
-                "Slow": 0.1
+                "Cooldown": 2
+                "Slow": 0,
+                "SlowTime": 0.5
             }
         ]
     },
