@@ -91,7 +91,7 @@
         "Type": "AOE",
         "Image": "rbxassetid://119691757225895",
         "Rarity": "Modded",
-        "PlacePrice": 15000,
+        "PlacePrice": 1500,
         "Offset": 0,
         "Max": 10,
         "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 25%"},
@@ -103,35 +103,31 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 35,
+                "Range": 15,
                 "Damage": 0,
-                "Cooldown": 0.25,
-                "CooldownBoost": 0.97,
-                "Slow": 0.75
+                "Cooldown": 1,
+                "DamageBoost": 5.06
             },
             {
-                "Price": 25000,
-                "Range": 37,
+                "Price": 5000,
+                "Range": 15,
                 "Damage": 0,
-                "Cooldown": 0.25,
-                "CooldownBoost": 0.65,
-                "Slow": 0.75
+                "Cooldown": 1,
+                "DamageBoost": 6.12
             },
             {
-                "Price": 25000,
-                "Range": 48,
+                "Price": 7000,
+                "Range": 15,
                 "Damage": 0,
-                "Cooldown": 0.25,
-                "CooldownBoost": 0.52,
-                "Slow": 0.75
+                "Cooldown": 1,
+                "DamageBoost": 8.18
             },
             {
-                "Price": 25000,
-                "Range": 50,
+                "Price": 10000,
+                "Range": 15,
                 "Damage": 0,
-                "Cooldown": 0.25,
-                "CooldownBoost": 0.4,
-                "Slow": 0.75
+                "Cooldown": 1,
+                "DamageBoost": 9.24
             }
         ]
     },
