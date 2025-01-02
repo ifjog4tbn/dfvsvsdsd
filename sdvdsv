@@ -123,7 +123,7 @@
     "Santa Scott": {
         "Type": "Splash",
         "Image": "rbxassetid://74402153241501",
-        "Rarity": "Galactic",
+        "Rarity": "Cosmic",
         "PlacePrice": 5500,
         "Offset": 1.25,
         "Max": 3,
@@ -132,37 +132,37 @@
             "Y": 0,
             "Z": 0
         },
-        "Upgrades": [
+                "Upgrades": [
             {
                 "Price": 0,
                 "Range": 25,
                 "Damage": 15000,
-                "Cooldown": 2.0
+                "Cooldown": 1.1
             },
 
             {
                 "Price": 20000,
                 "Range": 28,
                 "Damage": 20000,
-                "Cooldown": 2.0
+                "Cooldown": 1.0
             },
             {
                 "Price": 20000,
                 "Range": 31,
                 "Damage": 30000,
-                "Cooldown": 1.8
+                "Cooldown": 0.8
             },
             {
                 "Price": 25000,
                 "Range": 34,
                 "Damage": 35000,
-                "Cooldown": 1.8
+                "Cooldown": 0.8
             },
             {
                 "Price": 30000,
                 "Range": 45,
                 "Damage": 45000,
-                "Cooldown": 1.6
+                "Cooldown": 0.6
             }
         ]
     },
