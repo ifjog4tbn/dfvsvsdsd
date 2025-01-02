@@ -312,9 +312,9 @@
         "Type": "Cone AOE + Slow",
         "Image": "rbxassetid://76066387299146",
         "Rarity": "Modded",
-        "PlacePrice": 50000,
+        "PlacePrice": 20,
         "Offset": 0.65,
-        "Max": 1,
+        "Max": 999,
         "Passive": {"Name": "DEV", "Description": "KILL EVERY ENEMIES and slowed by 250%."},
         "hitboxOffset": {
             "X": 0,
@@ -325,42 +325,42 @@
             {
                 "Price": 0,
                 "Range": 15,
-                "Damage": 15000,
-                "Cooldown": 5,
-                "Slow": 0.50,
-                "SlowTime": 5
+                "Damage": 15000000,
+                "Cooldown": 0.0001,
+                "Slow": 100,
+                "SlowTime": 100
             },
             {
                 "Price": 22000,
                 "Range": 25,
-                "Damage": 35000,
-                "Cooldown": 4,
-                "Slow": 0.80,
-                "SlowTime": 10
+                "Damage": 35000000,
+                "Cooldown": 0.0001,
+                "Slow": 100,
+                "SlowTime": 100
             },
             {
                 "Price": 25000,
                 "Range": 35,
                 "Damage": 75000,
-                "Cooldown": 4,
-                "Slow": 1,
-                "SlowTime": 15
+                "Cooldown": 0.0001,
+                "Slow": 100,
+                "SlowTime": 100
             },
             {
                 "Price": 30000,
                 "Range": 50,
-                "Damage": 100000,
-                "Cooldown": 1.5,
-                "Slow": 2,
-                "SlowTime": 20
+                "Damage": 100000000,
+                "Cooldown": 0.0001,
+                "Slow": 100,
+                "SlowTime": 100
             },
             {
                 "Price": 250000,
                 "Range": 100,
-                "Damage": 500000,
-                "Cooldown": 5,
-                "Slow": 10,
-                "SlowTime": 25
+                "Damage": 500000000,
+                "Cooldown": 0.0001,
+                "Slow": 100,
+                "SlowTime": 100
             }
         ]
     },
