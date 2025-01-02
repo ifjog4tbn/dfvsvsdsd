@@ -38,6 +38,134 @@
             }
         ]
     },
+    "King Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://115876611350200",
+        "Rarity": "Modded",
+         "PlacePrice": 12500,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 45,
+                "Cooldown": 0.04
+            },
+            {
+                "Price": 20000,
+                "Range": 22,
+                "Damage": 50,
+                "Cooldown": 0.03
+            },
+            {
+                "Price": 29000,
+                "Range": 25,
+                "Damage": 65,
+                "Cooldown": 0.02
+            },
+            {
+                "Price": 35000,
+                "Range": 65,
+                "Damage": 90,
+                "Cooldown": 0.01
+            }
+        ]
+    },
+    "Magician Freddy": {
+        "Type": "Single + Slow",
+        "Image": "rbxassetid://83092404976837",
+        "Rarity": "Modded",
+        "PlacePrice": 14500,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 7500,
+                "Cooldown": 0.6,
+                "Slow": 0.4
+            },
+            {
+                "Price": 10000,
+                "Range": 22,
+                "Damage": 300,
+                "Cooldown": 0.6,
+                "Slow": 0.4
+            },
+            {
+                "Price": 12000,
+                "Range": 25,
+                "Damage": 350,
+                "Cooldown": 0.6,
+                "Slow": 0.4
+            },
+            {
+                "Price": 16000,
+                "Range": 65,
+                "Damage": 520,
+                "Cooldown": 0.6,
+                "Slow": 0.4
+            }
+        ]
+    },
+    "Santa Scott": {
+        "Type": "Splash",
+        "Image": "rbxassetid://74402153241501",
+        "Rarity": "Galactic",
+        "PlacePrice": 5500,
+        "Offset": 1.25,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 15000,
+                "Cooldown": 2.0
+            },
+
+            {
+                "Price": 20000,
+                "Range": 28,
+                "Damage": 20000,
+                "Cooldown": 2.0
+            },
+            {
+                "Price": 20000,
+                "Range": 31,
+                "Damage": 30000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 25000,
+                "Range": 34,
+                "Damage": 35000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 30000,
+                "Range": 45,
+                "Damage": 45000,
+                "Cooldown": 1.6
+            }
+        ]
+    },
     "Jetpack Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://91429827242337",
