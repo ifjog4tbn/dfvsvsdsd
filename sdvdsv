@@ -38,6 +38,129 @@
             }
         ]
     },
+    "ShadowBonnieEXE": {
+        "Type": "Single",
+        "Image": "rbxassetid://109684151506791",
+        "Rarity": "Galactic",
+        "PlacePrice": 35000,
+        "Offset": 1.25,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 450,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 40000,
+                "Range": 45,
+                "Damage": 350,
+                "Cooldown": 0.04
+            },
+            {
+                "Price": 45000,
+                "Range": 45,
+                "Damage": 300,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 45000,
+                "Range": 50,
+                "Damage": 500,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 50000,
+                "Range": 55,
+                "Damage": 1000,
+                "Cooldown": 0.01
+            }
+        ]
+    },
+    "2025 Firework Toy Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://71504235281712",
+        "Rarity": "Modded",
+        "PlacePrice": 250,
+        "Offset": 1.25,
+        "Max": 10,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 150,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 500,
+                "Range": 35,
+                "Damage": 300,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 750,
+                "Range": 40,
+                "Damage": 250,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 1000,
+                "Range": 45,
+                "Damage": 300,
+                "Cooldown": 0.2
+            }
+        ]
+    },
+    "ShadowFreddyEXE": {
+        "Type": "Single",
+        "Image": "rbxassetid://81864913302784",
+        "Rarity": "Modded",
+        "PlacePrice": 15000,
+        "Offset": 1.25,
+        "Max": 10,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 9500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 12900,
+                "Range": 35,
+                "Damage": 9550,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15500,
+                "Range": 40,
+                "Damage": 11000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 50,
+                "Damage": 12550,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "King Chica": {
         "Type": "Single",
         "Image": "rbxassetid://115876611350200",
