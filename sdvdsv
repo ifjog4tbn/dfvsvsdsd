@@ -38,6 +38,45 @@
             }
         ]
     },
+    "2025 FireworkFreddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://75713363297968",
+        "Rarity": "Modded",
+        "PlacePrice": 250,
+        "Offset": 1.25,
+        "Max": 10,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 150,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 500,
+                "Range": 35,
+                "Damage": 300,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 750,
+                "Range": 40,
+                "Damage": 250,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 1000,
+                "Range": 45,
+                "Damage": 300,
+                "Cooldown": 0.2
+            }
+        ]
+    },
     "ShadowBonnieEXE": {
         "Type": "Single",
         "Image": "rbxassetid://109684151506791",
