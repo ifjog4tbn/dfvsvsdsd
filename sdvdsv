@@ -38,6 +38,51 @@
             }
         ]
     },
+    "Mech Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://135637898015077",
+        "Rarity": "Cosmic",
+        "PlacePrice": 35000,
+        "Offset": 1.25,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 450,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 40000,
+                "Range": 45,
+                "Damage": 900,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 45000,
+                "Range": 45,
+                "Damage": 950,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 49000,
+                "Range": 50,
+                "Damage": 3500,
+                "Cooldown": 0.03
+            },
+            {
+                "Price": 50000,
+                "Range": 55,
+                "Damage": 4500,
+                "Cooldown": 0.03
+            }
+        ]
+    },
     "2025 FireworkFreddy": {
         "Type": "Single",
         "Image": "rbxassetid://75713363297968",
