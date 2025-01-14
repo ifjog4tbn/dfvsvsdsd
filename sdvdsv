@@ -1,8 +1,92 @@
 {
+    "Broken Foxy": {
+        "Type": "Single",
+        "Image": "rbxassetid://112765353232342",
+        "Rarity": "Galactic",
+        "PlacePrice": 18000,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 16500,
+                "Cooldown": 0.8
+            },
+            {
+                "Price": 15000,
+                "Range": 45,
+                "Damage": 19000,
+                "Cooldown": 0.7
+            },
+            {
+                "Price": 25000,
+                "Range": 45,
+                "Damage": 21500,
+                "Cooldown": 0.6
+            },
+            {
+                "Price": 28000,
+                "Range": 50,
+                "Damage": 22500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 30000,
+                "Range": 55,
+                "Damage": 27000,
+                "Cooldown": 0.6
+            }
+        ]
+    },
+    "Broken Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://97401424852653",
+        "Rarity": "Galactic",
+        "PlacePrice": 15000,
+        "Max": 6,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 15500,
+                "Cooldown": 0.7
+            },
+            {
+                "Price": 15000,
+                "Range": 35,
+                "Damage": 18000,
+                "Cooldown": 0.6
+            },
+            {
+                "Price": 25000,
+                "Range": 44,
+                "Damage": 20500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 30000,
+                "Range": 55,
+                "Damage": 22500,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "Broken Mech Bonnie": {
         "Type": "Single",
         "Image": "rbxassetid://84366702406363",
-        "Rarity": "Godly",
+        "Rarity": "Galactic",
         "PlacePrice": 25000,
         "Max": 2,
         "Offset": 0.3,
@@ -13,35 +97,35 @@
         },
         "Upgrades": [
             {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 16500,
-                "Cooldown": 0.3
-            },
-            {
-                "Price": 25000,
-                "Range": 45,
-                "Damage": 19000,
-                "Cooldown": 0.3
-            },
-            {
-                "Price": 35000,
-                "Range": 45,
-                "Damage": 21500,
-                "Cooldown": 0.3
-            },
-            {
-                "Price": 38000,
-                "Range": 50,
-                "Damage": 22500,
-                "Cooldown": 0.3
-            },
-            {
-                "Price": 45000,
-                "Range": 55,
-                "Damage": 32000,
-                "Cooldown": 0.3
-            }
+                "Price": 0,
+                "Range": 35,
+                "Damage": 16500,
+                "Cooldown": 0.3
+            },
+            {
+                "Price": 25000,
+                "Range": 45,
+                "Damage": 19000,
+                "Cooldown": 0.3
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 21500,
+                "Cooldown": 0.3
+            },
+            {
+                "Price": 38000,
+                "Range": 50,
+                "Damage": 22500,
+                "Cooldown": 0.3
+            },
+            {
+                "Price": 45000,
+                "Range": 55,
+                "Damage": 32000,
+                "Cooldown": 0.3
+            }
         ]
     },
     "Freddy": {
