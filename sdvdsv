@@ -1,6 +1,6 @@
 {
     "Sniper Bonnie": {
-        "Type": "AOE",
+        "Type": "Single",
         "Image": "rbxassetid://119477888776438",
         "Rarity": "Modded",
         "PlacePrice": 15000,
@@ -39,7 +39,7 @@
         ]
     },
     "Military Freddy": {
-        "Type": "Single",
+        "Type": "AOE",
         "Image": "rbxassetid://81287136393876",
         "Rarity": "Celestial",
         "PlacePrice": 15000,
