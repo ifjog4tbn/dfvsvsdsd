@@ -1,4 +1,82 @@
 {
+    "Sniper Bonnie": {
+        "Type": "Single",
+        "Image": "rbxassetid://119477888776438",
+        "Rarity": "Modded",
+        "PlacePrice": 15000,
+        "Max": 6,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 10500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15000,
+                "Range": 35,
+                "Damage": 11000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15000,
+                "Range": 44,
+                "Damage": 13000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 55,
+                "Damage": 15000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Military Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://81287136393876",
+        "Rarity": "Galactic",
+        "PlacePrice": 15000,
+        "Max": 6,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 3500,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 15000,
+                "Range": 35,
+                "Damage": 6000,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 15000,
+                "Range": 44,
+                "Damage": 7500,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 20000,
+                "Range": 55,
+                "Damage": 9999,
+                "Cooldown": 0.01
+            }
+        ]
+    },
     "Broken Foxy": {
         "Type": "Single",
         "Image": "rbxassetid://112765353232342",
