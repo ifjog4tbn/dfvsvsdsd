@@ -1,6 +1,6 @@
 {
     "Sniper Bonnie": {
-        "Type": "Single",
+        "Type": "AOE",
         "Image": "rbxassetid://119477888776438",
         "Rarity": "Modded",
         "PlacePrice": 15000,
