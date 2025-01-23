@@ -1,4 +1,162 @@
 {
+    "Toxic Freddy": {
+        "Type": "AOE",
+        "Image": "rbxassetid://93274592615462",
+        "Rarity": "Modded",
+        "PlacePrice": 12000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 45,
+                "Damage": 3500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15000,
+                "Range": 45,
+                "Damage": 6500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15000,
+                "Range": 45,
+                "Damage": 7500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 55,
+                "Damage": 8000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Toxic Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://125839632581710",
+        "Rarity": "Galactic",
+        "PlacePrice": 10000,
+        "Max": 6,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 350,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 22000,
+                "Range": 35,
+                "Damage": 600,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 23000,
+                "Range": 44,
+                "Damage": 750,
+                "Cooldown": 0.01
+            },
+            {
+                "Price": 25000,
+                "Range": 55,
+                "Damage": 1000,
+                "Cooldown": 0.01
+            }
+        ]
+    },
+    "Toxic Foxy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://131290272344867",
+        "Rarity": "Cosmic",
+        "PlacePrice": 600,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 7500,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 1500,
+                "Range": 30,
+                "Damage": 10000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 2000,
+                "Range": 40,
+                "Damage": 13000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 2500,
+                "Range": 50,
+                "Damage": 15000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Toxic Bonnie": {
+        "Type": "AOE",
+        "Image": "rbxassetid://109657663865952",
+        "Rarity": "Celestial",
+        "PlacePrice": 25000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 45,
+                "Damage": 35000,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 35000,
+                "Range": 50,
+                "Damage": 45000,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 45000,
+                "Range": 50,
+                "Damage": 55000,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 50000,
+                "Range": 60,
+                "Damage": 69000,
+                "Cooldown": 0.4
+            }
+        ]
+    },
+
+
     "Sniper Bonnie": {
         "Type": "Single",
         "Image": "rbxassetid://119477888776438",
