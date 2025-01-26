@@ -1,4 +1,122 @@
 {
+    "Shadow Toy Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://100436584371508",
+        "Rarity": "Modded",
+        "PlacePrice": 5000,
+        "Max": 8,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 5500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 10000,
+                "Range": 40,
+                "Damage": 6500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 12500,
+                "Range": 45,
+                "Damage": 7500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15500,
+                "Range": 50,
+                "Damage": 10000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Shadow Toy Bonnie": {
+        "Type": "Splash",
+        "Image": "rbxassetid://94128292070329",
+        "Rarity": "Galactic",
+        "PlacePrice": 15000,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 14500,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 15000,
+                "Range": 45,
+                "Damage": 15500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 55,
+                "Damage": 20000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 55,
+                "Damage": 28000,
+                "Cooldown": 0.6
+            }
+        ]
+    },
+    "Freddys death": {
+        "Type": "Splash",
+        "Image": "rbxassetid://81182844673026",
+        "Rarity": "Celestial",
+        "PlacePrice": 20000,
+        "Max": 2,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 15000,
+                "Cooldown": 0.3
+            },
+            {
+                "Price": 15000,
+                "Range": 45,
+                "Damage": 35000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 15000,
+                "Range": 55,
+                "Damage": 45000,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 20000,
+                "Range": 60,
+                "Damage": 65000,
+                "Cooldown": 0.4
+            }
+        ]
+    },
+
     "Toxic Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://93274592615462",
