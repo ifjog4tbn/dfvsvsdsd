@@ -1,4 +1,130 @@
 {
+    "Lunar Bonnie": {
+        "Type": "Splash",
+        "Image": "rbxassetid://81977171100854",
+        "Rarity": "Modded",
+        "PlacePrice": 600,
+        "Max": 8,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 5500,
+                "Cooldown": 1.3
+            },
+            {
+                "Price": 1200,
+                "Range": 35,
+                "Damage": 7500,
+                "Cooldown": 1.3
+            },
+            {
+                "Price": 2500,
+                "Range": 40,
+                "Damage": 8500,
+                "Cooldown": 1.3
+            },
+            {
+                "Price": 4500,
+                "Range": 40,
+                "Damage": 10000,
+                "Cooldown": 1.3
+            }
+        ]
+    },
+    "Lunar Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://110237394167455",
+        "Rarity": "Galactic",
+        "PlacePrice": 23000,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 35000,
+                "Cooldown": 0.4
+            },
+            {
+                "Price": 15000,
+                "Range": 35,
+                "Damage": 45500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 35,
+                "Damage": 45000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 45000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Abyssal Lunar Foxy": {
+        "Type": "Single + Slow",
+        "Image": "rbxassetid://81988977639635",
+        "Rarity": "Celestial",
+        "PlacePrice": 25000,
+        "Max": 1,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 0,
+                "Cooldown": 0.01,
+                "Slow": 0.6,
+                "SlowTime": 3
+            },
+            {
+                "Price": 2400,
+                "Range": 40,
+                "Damage": 0,
+                "Cooldown": 0.01,
+                "Slow": 0.6,
+                "SlowTime": 3
+            },
+            {
+                "Price": 3000,
+                "Range": 45,
+                "Damage": 0,
+                "Cooldown": 0.01,
+                "Slow": 0.6,
+                "SlowTime": 3
+            },
+            {
+                "Price": 4000,
+                "Range": 55,
+                "Damage": 0,
+                "Cooldown": 0.01,
+                "Slow": 0.6,
+                "SlowTime": 3
+            }
+        ]
+    },
+
     "Shadow Toy Chica": {
         "Type": "Single",
         "Image": "rbxassetid://100436584371508",
