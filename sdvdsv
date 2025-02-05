@@ -1,4 +1,122 @@
 {
+    "Demon Bonnie": {
+        "Type": "Single",
+        "Image": "rbxassetid://82951222758390",
+        "Rarity": "Cosmic",
+        "PlacePrice": 25000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 500,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 30000,
+                "Range": 35,
+                "Damage": 5000,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 8000,
+                "Cooldown": 0.2
+            },
+            {
+                "Price": 40000,
+                "Range": 50,
+                "Damage": 10000,
+                "Cooldown": 0.3
+            }
+        ]
+    },
+    "Demon Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://89536605093313",
+        "Rarity": "Galactic",
+        "PlacePrice": 500,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 1000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 16500,
+                "Range": 35,
+                "Damage": 15000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 17800,
+                "Range": 45,
+                "Damage": 18000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 32000,
+                "Range": 50,
+                "Damage": 23000,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+    "Demon Sun": {
+        "Type": "Splash",
+        "Image": "rbxassetid://101777525785776",
+        "Rarity": "Celestial",
+        "PlacePrice": 55000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 35000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 65000,
+                "Range": 35,
+                "Damage": 45500,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 78000,
+                "Range": 45,
+                "Damage": 65000,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 120000,
+                "Range": 50,
+                "Damage": 78000,
+                "Cooldown": 2.5
+            }
+        ]
+    },
+
     "Lunar Bonnie": {
         "Type": "Splash",
         "Image": "rbxassetid://81977171100854",
