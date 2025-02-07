@@ -1,43 +1,4 @@
 {
-    "Toxic Chica": {
-        "Type": "Single",
-        "Image": "rbxassetid://16620053009",
-        "Rarity": "Galactic",
-        "PlacePrice": 10000,
-        "Max": 6,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 150,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 22000,
-                "Range": 35,
-                "Damage": 200,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 23000,
-                "Range": 44,
-                "Damage": 300,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 25000,
-                "Range": 55,
-                "Damage": 400,
-                "Cooldown": 0.05
-            }
-        ]
-    },
     "Demon Bonnie": {
         "Type": "Single",
         "Image": "rbxassetid://82951222758390",
@@ -447,7 +408,7 @@
     },
     "Toxic Chica": {
         "Type": "Single",
-        "Image": "rbxassetid://125839632581710",
+        "Image": "rbxassetid://16620053009",
         "Rarity": "Galactic",
         "PlacePrice": 10000,
         "Max": 6,
@@ -461,26 +422,26 @@
             {
                 "Price": 0,
                 "Range": 35,
-                "Damage": 350,
+                "Damage": 150,
                 "Cooldown": 0.01
             },
             {
                 "Price": 22000,
                 "Range": 35,
-                "Damage": 600,
+                "Damage": 200,
                 "Cooldown": 0.01
             },
             {
                 "Price": 23000,
                 "Range": 44,
-                "Damage": 750,
+                "Damage": 300,
                 "Cooldown": 0.01
             },
             {
                 "Price": 25000,
                 "Range": 55,
-                "Damage": 1000,
-                "Cooldown": 0.01
+                "Damage": 400,
+                "Cooldown": 0.05
             }
         ]
     },
