@@ -466,45 +466,6 @@
             }
         ]
     },
-    "Toxic Chica": {
-        "Type": "Single",
-        "Image": "rbxassetid://125839632581710",
-        "Rarity": "Galactic",
-        "PlacePrice": 10000,
-        "Max": 5,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 350,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 22000,
-                "Range": 35,
-                "Damage": 600,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 23000,
-                "Range": 44,
-                "Damage": 750,
-                "Cooldown": 0.01
-            },
-            {
-                "Price": 25000,
-                "Range": 55,
-                "Damage": 1000,
-                "Cooldown": 0.01
-            }
-        ]
-    },
     "Toxic Foxy": {
         "Type": "Splash",
         "Image": "rbxassetid://131290272344867",
