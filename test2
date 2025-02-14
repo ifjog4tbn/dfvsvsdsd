@@ -1,10 +1,10 @@
 {
-    "Hacker Burntrap": {
-        "Type": "Splash",
-        "Image": "rbxassetid://86931223722504",
-        "Rarity": "Cosmic",
-        "PlacePrice": 11111, 
-        "Max": 3,
+    "HackTrap": {
+        "Type": "AOE",
+        "Image": "rbxassetid://87608872167162",
+        "Rarity": "Modded",
+        "PlacePrice": 666, 
+        "Max": 8,
         "Offset": 0.3,
         "hitboxOffset": {
             "X": 0,
@@ -15,25 +15,25 @@
             {
                 "Price": 0,
                 "Range": 35,
-                "Damage": 10000,
-                "Cooldown": 1.0
+                "Damage": 7000,
+                "Cooldown": 0.5
             },
             {
-                "Price": 20000,
+                "Price": 4444,
                 "Range": 35,
-                "Damage": 12000,
+                "Damage": 7500,
                 "Cooldown": 0.5
             },
             {
-                "Price": 25000,
+                "Price":7777,
                 "Range": 44,
-                "Damage": 15000,
+                "Damage": 8000,
                 "Cooldown": 0.5
             },
             {
-                "Price": 35000,
+                "Price": 11111,
                 "Range": 50,
-                "Damage": 20000,
+                "Damage": 9500,
                 "Cooldown": 0.5
             }
         ]
