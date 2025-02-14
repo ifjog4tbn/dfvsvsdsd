@@ -1,43 +1,43 @@
 {
-    "UmpaTrap": {
-        "Type": "AOE",
-        "Image": "rbxassetid://140159009478479",
-        "Rarity": "Modded",
-        "PlacePrice": 666, 
-        "Max": 8,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 7000,
-                "Cooldown": 1.2
-            },
-            {
-                "Price": 4444,
-                "Range": 35,
-                "Damage": 7500,
-                "Cooldown": 0.9
-            },
-            {
-                "Price":7777,
-                "Range": 44,
-                "Damage": 8000,
-                "Cooldown": 0.7
-            },
-            {
-                "Price": 11111,
-                "Range": 50,
-                "Damage": 9500,
-                "Cooldown": 0.5
-            }
-        ]
-    },
+    "HackTrap": {
+        "Type": "AOE",
+        "Image": "rbxassetid://140159009478479",
+        "Rarity": "Modded",
+        "PlacePrice": 44444,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 44444,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 26,
+                "Damage": 55555,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 750,
+                "Range": 30,
+                "Damage": 60000,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 1250,
+                "Range": 45,
+                "Damage": 77777,
+                "Cooldown": 1
+            }
+        ]
+    },
     "Dark Hacker Puppet": {
         "Type": "Splash",
         "Image": "rbxassetid://140159009478479",
