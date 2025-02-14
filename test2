@@ -1,43 +1,43 @@
 {
     "Hacker Burntrap": {
-        "Type": "Splash",
-        "Image": "rbxassetid://86931223722504",
-        "Rarity": "Cosmic",
-        "PlacePrice": 12000, 
-        "Max": 3,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
+        "Type": "Splash",
+        "Image": "rbxassetid://87608872167162",
+        "Rarity": "Modded",
+        "PlacePrice": 1500,
+        "Max": 4,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
             {
                 "Price": 0,
-                "Range": 15,
-                "Damage": 600,
-                "Cooldown": 4
-            },
-            {
-                "Price": 10000,
-                "Range": 18,
-                "Damage": 700,
-                "Cooldown": 3.5
-            },
-            {
-                "Price": 15000,
-                "Range": 22,
-                "Damage": 800,
-                "Cooldown": 3
-            },
-            {
-                "Price": 20000,
                 "Range": 25,
-                "Damage": 1000,
-                "Cooldown": 3
+                "Damage": 5000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 18000,
+                "Range": 27,
+                "Damage": 8000,
+                "Cooldown": 1.9
+            },
+            {
+                "Price": 22000,
+                "Range": 28,
+                "Damage": 10000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 25000,
+                "Range": 30,
+                "Damage": 17000,
+                "Cooldown": 1.6
             }
-        ]
-    },
+        ]
+    },
     "HackTrap": {
         "Type": "AOE",
         "Image": "rbxassetid://87608872167162",
