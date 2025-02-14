@@ -1,82 +1,160 @@
 {
-    "Hacker Burntrap": {
-        "Type": "Splash",
-        "Image": "rbxassetid://86931223722504",
-        "Rarity": "Cosmic",
-        "PlacePrice": 11111, 
-        "Max": 3,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
+    "Hacker Scott": {
+        "Type": "Splash",
+        "Image": "rbxassetid://76625233818294",
+        "Rarity": "Cosmic",
+        "PlacePrice": 33333,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
                 "Price": 0,
                 "Range": 35,
-                "Damage": 10000,
-                "Cooldown": 1.0
-            },
+                "Damage": 500,
+                "Cooldown": 0.07
+            },
             {
-                "Price": 20000,
+                "Price": 45555,
                 "Range": 35,
-                "Damage": 12000,
-                "Cooldown": 0.5
+                "Damage": 550,
+                "Cooldown": 0.08
             },
             {
-                "Price":25000,
+                "Price": 44444,
                 "Range": 44,
-                "Damage": 15000,
-                "Cooldown": 0.5
+                "Damage": 750,
+                "Cooldown": 0.08
             },
             {
-                "Price": 35000,
+                "Price": 60000,
                 "Range": 50,
-                "Damage": 20000,
-                "Cooldown": 0.5
+                "Damage": 1000,
+                "Cooldown": 0.09
             }
-        ]
-    },
-    "HackTrap": {
-        "Type": "AOE",
-        "Image": "rbxassetid://87608872167162",
-        "Rarity": "Modded",
-        "PlacePrice": 666, 
-        "Max": 8,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 7000,
-                "Cooldown": 0.5
-            },
-            {
-                "Price": 4444,
-                "Range": 35,
-                "Damage": 7500,
-                "Cooldown": 0.5
-            },
-            {
-                "Price":7777,
-                "Range": 44,
-                "Damage": 8000,
-                "Cooldown": 0.5
-            },
-            {
-                "Price": 11111,
-                "Range": 50,
-                "Damage": 9500,
-                "Cooldown": 0.5
-            }
-        ]
-    },
+        ]
+    },
+    "Archer Fredeus": {
+        "Type": "Single",
+        "Image": "rbxassetid://113101409953014",
+        "Rarity": "Epic",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 180,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 250,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 800,
+                "Range": 24,
+                "Damage": 340,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 1000,
+                "Range": 25,
+                "Damage": 400,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+    "Archer Fredeus": {
+        "Type": "Single",
+        "Image": "rbxassetid://113101409953014",
+        "Rarity": "Epic",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 180,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 250,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 800,
+                "Range": 24,
+                "Damage": 340,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 1000,
+                "Range": 25,
+                "Damage": 400,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+    "Archer Fredeus": {
+        "Type": "Single",
+        "Image": "rbxassetid://113101409953014",
+        "Rarity": "Epic",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 180,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 250,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 800,
+                "Range": 24,
+                "Damage": 340,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 1000,
+                "Range": 25,
+                "Damage": 400,
+                "Cooldown": 1.5
+            }
+        ]
+    },
     "Archer Fredeus": {
         "Type": "Single",
         "Image": "rbxassetid://113101409953014",
