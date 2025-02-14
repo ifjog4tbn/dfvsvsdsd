@@ -39,7 +39,7 @@
         ]
     },
     "Hacker Scott": {
-        "Type": "Single",
+        "Type": "Splash",
         "Image": "rbxassetid://83624388314614",
         "Rarity": "Cosmic",
         "PlacePrice": 33333,
@@ -55,25 +55,25 @@
                 "Price": 0,
                 "Range": 35,
                 "Damage": 500,
-                "Cooldown": 0.07
+                "Cooldown": 0.7
             },
             {
                 "Price": 45555,
                 "Range": 35,
                 "Damage": 550,
-                "Cooldown": 0.08
+                "Cooldown": 0.8
             },
             {
                 "Price": 44444,
                 "Range": 44,
                 "Damage": 750,
-                "Cooldown": 0.08
+                "Cooldown": 0.8
             },
             {
                 "Price": 60000,
                 "Range": 50,
                 "Damage": 1000,
-                "Cooldown": 0.09
+                "Cooldown": 0.9
             }
         ]
     },
