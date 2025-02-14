@@ -16,19 +16,19 @@
                 "Price": 0,
                 "Range": 35,
                 "Damage": 7000,
-                "Cooldown": 0.5
+                "Cooldown": 0.9
             },
             {
                 "Price": 4444,
                 "Range": 35,
                 "Damage": 7500,
-                "Cooldown": 0.5
+                "Cooldown": 0.7
             },
             {
                 "Price": 7777,
                 "Range": 44,
                 "Damage": 8000,
-                "Cooldown": 0.5
+                "Cooldown": 0.6
             },
             {
                 "Price": 11111,
