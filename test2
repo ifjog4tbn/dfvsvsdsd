@@ -18,24 +18,24 @@
                 "Damage": 7000,
                 "Cooldown": 0.9
             },
-            {
-                "Price": 4444,
-                "Range": 35,
-                "Damage": 7500,
-                "Cooldown": 0.7
-            },
-            {
-                "Price": 7777,
-                "Range": 44,
-                "Damage": 8000,
-                "Cooldown": 0.6
-            },
-            {
-                "Price": 11111,
-                "Range": 50,
-                "Damage": 9500,
-                "Cooldown": 0.5
-            }
+            {
+                "Price": 500,
+                "Range": 26,
+                "Damage": 55555,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 750,
+                "Range": 30,
+                "Damage": 60000,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 1250,
+                "Range": 45,
+                "Damage": 77777,
+                "Cooldown": 1
+            }
         ]
     },
     "Dark Hacker Puppet": {
