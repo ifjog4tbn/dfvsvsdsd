@@ -14,28 +14,28 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 35,
-                "Damage": 7000,
+                "Range": 20,
+                "Damage": 6000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 5000,
+                "Range": 22,
+                "Damage": 10000,
                 "Cooldown": 0.9
             },
-            {
-                "Price": 500,
-                "Range": 26,
-                "Damage": 55555,
-                "Cooldown": 1.25
-            },
-            {
-                "Price": 750,
-                "Range": 30,
-                "Damage": 60000,
-                "Cooldown": 1.25
-            },
-            {
-                "Price": 1250,
-                "Range": 45,
-                "Damage": 77777,
-                "Cooldown": 1
-            }
+            {
+                "Price": 15000,
+                "Range": 24,
+                "Damage": 15000,
+                "Cooldown": 0.8
+            },
+            {
+                "Price": 35000,
+                "Range": 30,
+                "Damage": 20000,
+                "Cooldown": 0.7
+            }
         ]
     },
     "Dark Hacker Puppet": {
