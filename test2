@@ -1,7 +1,7 @@
 {
-    "HackTrap": {
+    "UmpaTrap": {
         "Type": "AOE",
-        "Image": "rbxassetid://87608872167162",
+        "Image": "rbxassetid://140159009478479",
         "Rarity": "Modded",
         "PlacePrice": 666, 
         "Max": 8,
