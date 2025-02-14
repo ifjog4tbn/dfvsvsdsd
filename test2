@@ -1,4 +1,43 @@
 {
+    "Hacker Burntrap": {
+        "Type": "Splash",
+        "Image": "rbxassetid://86931223722504",
+        "Rarity": "Cosmic",
+        "PlacePrice": 11111, 
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 10000,
+                "Cooldown": 1.0
+            },
+            {
+                "Price": 20000,
+                "Range": 35,
+                "Damage": 12000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 44,
+                "Damage": 15000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 35000,
+                "Range": 50,
+                "Damage": 20000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "Dark Hacker Puppet": {
         "Type": "Splash",
         "Image": "rbxassetid://140159009478479",
