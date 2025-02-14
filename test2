@@ -1,0 +1,127 @@
+{
+    "Hacker Scott": {
+        "Type": "Splash",
+        "Image": "rbxassetid://76625233818294",
+        "Rarity": "Cosmic",
+        "PlacePrice": 33333, 
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 500,
+                "Cooldown": 0.07
+            },
+            {
+                "Price": 45555,
+                "Range": 35,
+                "Damage": 550,
+                "Cooldown": 0.08
+            },
+            {
+                "Price": 44444,
+                "Range": 44,
+                "Damage": 750,
+                "Cooldown": 0.08
+            },
+            {
+                "Price": 60000,
+                "Range": 50,
+                "Damage": 1000,
+                "Cooldown": 0.09
+            }
+        ]
+    },
+    "Archer Fredeus2": {
+        "Type": "Single",
+        "Image": "rbxassetid://113101409953014",
+        "Rarity": "Epic",
+        "PlacePrice": 300,
+        "Offset": 0,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 180,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 22,
+                "Damage": 250,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 800,
+                "Range": 24,
+                "Damage": 340,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 1000,
+                "Range": 25,
+                "Damage": 400,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+    "StoneTrap2": {
+        "Type": "Cone AOE Burn",
+        "Image": "rbxassetid://102592059060827",
+        "Rarity": "Secret",
+        "PlacePrice": 25000,
+        "Offset": 0,
+        "Max": 10,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 22,
+                "Damage": 9000,
+                "Burn": 250,
+                "BurnTime": 1.2,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 30000,
+                "Range": 24,
+                "Damage": 11000,
+                "Burn": 250,
+                "BurnTime": 1.2,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 35000,
+                "Range": 27,
+                "Damage": 13000,
+                "Burn": 250,
+                "BurnTime": 1.2,
+                "Cooldown": 2.5
+            },
+            {
+                "Price": 40000,
+                "Range": 30,
+                "Damage": 15000,
+                "Burn": 250,
+                "BurnTime": 1.2,
+                "Cooldown": 2.5
+            }
+        ]
+    }
+}
