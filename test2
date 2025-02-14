@@ -1,43 +1,4 @@
 {
-    "Hacker Scott": {
-        "Type": "Splash",
-        "Image": "rbxassetid://76625233818294",
-        "Rarity": "Cosmic",
-        "PlacePrice": 33333, 
-        "Max": 3,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 35,
-                "Damage": 500,
-                "Cooldown": 0.07
-            },
-            {
-                "Price": 45555,
-                "Range": 35,
-                "Damage": 550,
-                "Cooldown": 0.08
-            },
-            {
-                "Price": 44444,
-                "Range": 44,
-                "Damage": 750,
-                "Cooldown": 0.08
-            },
-            {
-                "Price": 60000,
-                "Range": 50,
-                "Damage": 1000,
-                "Cooldown": 0.09
-            }
-        ]
-    },
     "Archer Fredeus2": {
         "Type": "Single",
         "Image": "rbxassetid://113101409953014",
