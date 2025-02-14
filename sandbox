@@ -1,9 +1,9 @@
 {
-    "Hacker Scott": {
+    "Hacker Burntrap": {
         "Type": "Splash",
-        "Image": "rbxassetid://76625233818294",
+        "Image": "rbxassetid://86931223722504",
         "Rarity": "Cosmic",
-        "PlacePrice": 33333, 
+        "PlacePrice": 11111, 
         "Max": 3,
         "Offset": 0.3,
         "hitboxOffset": {
@@ -15,68 +15,68 @@
             {
                 "Price": 0,
                 "Range": 35,
-                "Damage": 500,
-                "Cooldown": 0.07
+                "Damage": 10000,
+                "Cooldown": 1.0
             },
             {
-                "Price": 45555,
+                "Price": 20000,
                 "Range": 35,
-                "Damage": 550,
-                "Cooldown": 0.08
+                "Damage": 12000,
+                "Cooldown": 0.5
             },
             {
-                "Price":44444,
+                "Price":25000,
                 "Range": 44,
-                "Damage": 750,
-                "Cooldown": 0.08
+                "Damage": 15000,
+                "Cooldown": 0.5
             },
             {
-                "Price": 60000,
+                "Price": 35000,
                 "Range": 50,
-                "Damage": 1000,
-                "Cooldown": 0.09
+                "Damage": 20000,
+                "Cooldown": 0.5
             }
         ]
     },
-    "Dark Hacker Puppet": {
-        "Type": "Splash",
-        "Image": "rbxassetid://140159009478479",
-        "Rarity": "Celestial",
-        "PlacePrice": 44444,
-        "Max": 4,
-        "Offset": 0.3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Upgrades": [
-            {
-                "Price": 0,
-                "Range": 20,
-                "Damage": 44444,
-                "Cooldown": 1.5
-            },
-            {
-                "Price": 500,
-                "Range": 26,
-                "Damage": 55555,
-                "Cooldown": 1.25
-            },
-            {
-                "Price": 750,
-                "Range": 30,
-                "Damage": 60000,
-                "Cooldown": 1.25
-            },
-            {
-                "Price": 1250,
-                "Range": 45,
-                "Damage": 77777,
-                "Cooldown": 1
-            }
-        ]
-    },
+    "HackTrap": {
+        "Type": "AOE",
+        "Image": "rbxassetid://87608872167162",
+        "Rarity": "Modded",
+        "PlacePrice": 666, 
+        "Max": 8,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 7000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 4444,
+                "Range": 35,
+                "Damage": 7500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price":7777,
+                "Range": 44,
+                "Damage": 8000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 11111,
+                "Range": 50,
+                "Damage": 9500,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "Archer Fredeus": {
         "Type": "Single",
         "Image": "rbxassetid://113101409953014",
