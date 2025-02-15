@@ -117,7 +117,7 @@
         ]
     },
     "HackTrap": {
-        "Type": "AOE",
+        "Type": "Random",
         "Image": "rbxassetid://87608872167162",
         "Rarity": "Modded",
         "PlacePrice": 1500,
