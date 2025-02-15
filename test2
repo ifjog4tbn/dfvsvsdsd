@@ -117,7 +117,7 @@
         ]
     },
     "HackTrap": {
-        "Type": "Random",
+        "Type": "Splash",
         "Image": "rbxassetid://87608872167162",
         "Rarity": "Modded",
         "PlacePrice": 1500,
