@@ -1,4 +1,44 @@
 {
+    {
+    "Last Hacker Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://118396094761314",
+        "Rarity": "Modded",
+        "PlacePrice": 600,
+        "Max": 8,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 1200,
+                "Cooldown": 1
+            },
+            {
+                "Price": 500,
+                "Range": 12,
+                "Damage": 3500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 750,
+                "Range": 14,
+                "Damage": 6500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1250,
+                "Range": 15,
+                "Damage": 7500,
+                "Cooldown": 0.75
+            }
+        ]
+    },
     "Old hacker with consequences": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://127564876249542",
