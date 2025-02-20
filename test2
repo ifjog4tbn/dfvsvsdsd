@@ -1,4 +1,136 @@
 {
+    "Last Hacker Freddy": {
+        "Type": "Single",
+        "Image": "rbxassetid://118396094761314",
+        "Rarity": "Modded",
+        "PlacePrice": 600,
+        "Max": 8,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 1200,
+                "Cooldown": 1
+            },
+            {
+                "Price": 500,
+                "Range": 12,
+                "Damage": 3500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 750,
+                "Range": 14,
+                "Damage": 6500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1250,
+                "Range": 15,
+                "Damage": 7500,
+                "Cooldown": 0.75
+            }
+        ]
+    },
+    "Old hacker with consequences": {
+        "Type": "AOE + Passive",
+        "Image": "rbxassetid://127564876249542",
+        "Rarity": "Celestial",
+        "PlacePrice": 22340,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Hook and Line", "Description": "Reels in an enemy every few seconds, erasing them completely. Deals x75 damage to bosses."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 11111,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 44444,
+                "Range": 28,
+                "Damage": 23333,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 55555,
+                "Range": 32,
+                "Damage": 44444,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 66666,
+                "Range": 35,
+                "Damage": 55555,
+                "Cooldown": 0.1
+            }
+        ]
+    },
+    "Soulmate Puppet": {
+        "Type": "AOE + Passive",
+        "Image": "rbxassetid://127566861240944",
+        "Rarity": "Nightmare",
+        "PlacePrice": 20000,
+        "Offset": -0.4,
+        "Max": 2,
+        "Passive": {"Name": "Lovestruck", "Description": "All puppets on the same team deal +50% damage including herself. +35% Range to all units (70% Shiny)."},
+        "NoEnemyAttack": true,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 27000,
+                "Cooldown": 2.5,
+                "RangeBoost": 1.35,
+                "Slow": 0.70,
+                "SlowTime": 1
+            },
+            {
+                "Price": 22000,
+                "Range": 27,
+                "Damage": 35000,
+                "Cooldown": 2.3,
+                "RangeBoost": 1.35,
+                "Slow": 0.70,
+                "SlowTime": 1
+            },
+            {
+                "Price": 27000,
+                "Range": 28,
+                "Damage": 47000,
+                "Cooldown": 2.2,
+                "RangeBoost": 1.35,
+                "Slow": 0.70,
+                "SlowTime": 1
+            },
+            {
+                "Price": 32000,
+                "Range": 40,
+                "Damage": 60000,
+                "Cooldown": 2,
+                "RangeBoost": 1.35,
+                "Slow": 0.70,
+                "SlowTime": 1
+            }
+        ]
+    },
     "Toxic Chica": {
         "Type": "Single",
         "Image": "rbxassetid://125839632581710",
