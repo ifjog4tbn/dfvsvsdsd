@@ -4852,7 +4852,7 @@
                 "SummonTime": 40,
                 "Health": 100,
                 "WalkSpeed": 11,
-                "Unit": "TankCake",
+                "Unit": "Helper Freddle",
                 "Offset": -1.5
             },
             {
@@ -4861,9 +4861,9 @@
                 "Damage": 150,
                 "Cooldown": 4,
                 "SummonTime": 38,
-                "Health": 50,
+                "Health": 50000,
                 "WalkSpeed": 11,
-                "Unit": "TankCake",
+                "Unit": "Helper Freddle",
                 "Offset": -1.5
             },
             {
@@ -4872,9 +4872,9 @@
                 "Damage": 200,
                 "Cooldown": 2,
                 "SummonTime": 37,
-                "Health": 250,
+                "Health": 25000,
                 "WalkSpeed": 11,
-                "Unit": "TankCake",
+                "Unit": "Helper Freddle",
                 "Offset": -1.5
             },
             {
@@ -4882,10 +4882,10 @@
                 "Range": 14,
                 "Damage": 250,
                 "Cooldown": 1,
-                "SummonTime": 36,
-                "Health": 400,
+                "SummonTime": 1,
+                "Health": 40000,
                 "WalkSpeed": 11,
-                "Unit": "TankCake",
+                "Unit": "Helper Freddle",
                 "Offset": -1.5
             }
         ]
