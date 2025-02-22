@@ -1,4 +1,122 @@
 {
+    "Gravehack Foxy": {
+        "Type": "Summoner",
+        "Image": "rbxassetid://18673630095",
+        "Rarity": "Celestial",
+        "PlacePrice": 20000,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -1.5,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 45,
+                "Damage": 75000,
+                "Cooldown": 1,
+                "SummonTime": 3,
+                "Health": 100000,
+                "WalkSpeed": 11,
+                "Unit": "Hacker Spawn",
+                "Offset": -1.5
+            },
+            {
+                "Price": 45000,
+                "Range": 45,
+                "Damage": 80000,
+                "Cooldown": 1,
+                "SummonTime": 2,
+                "Health": 150000,
+                "WalkSpeed": 11,
+                "Unit": "Hacker Spawn",
+                "Offset": -1.5
+            },
+            {
+                "Price": 45000,
+                "Range": 45,
+                "Damage": 85500,
+                "Cooldown": 1,
+                "SummonTime": 2,
+                "Health": 200000,
+                "WalkSpeed": 11,
+                "Unit": "Hacker Spawn",
+                "Offset": -1.5
+            },
+            {
+                "Price": 60000,
+                "Range": 50,
+                "Damage": 90000,
+                "Cooldown": 1,
+                "SummonTime": 2,
+                "Health": 250000,
+                "WalkSpeed": 11,
+                "Unit": "Hacker Spawn",
+                "Offset": -1.5
+            }
+        ]
+    },
+    "Killer Guy": {
+        "Type": "Summoner",
+        "Image": "rbxassetid://18673630095",
+        "Rarity": "",
+        "PlacePrice": 1200,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -1.5,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 45,
+                "Damage": 6500,
+                "Cooldown": 1,
+                "SummonTime": 5,
+                "Health": 10000,
+                "WalkSpeed": 11,
+                "Unit": "Robo fredber",
+                "Offset": -1.5
+            },
+            {
+                "Price": 2500,
+                "Range": 45,
+                "Damage": 8500,
+                "Cooldown": 1,
+                "SummonTime": 5,
+                "Health": 15000,
+                "WalkSpeed": 11,
+                "Unit": "Robo fredber",
+                "Offset": -1.5
+            },
+            {
+                "Price": 4500,
+                "Range": 45,
+                "Damage": 10500,
+                "Cooldown": 1,
+                "SummonTime": 5,
+                "Health": 50000,
+                "WalkSpeed": 11,
+                "Unit": "Robo fredber",
+                "Offset": -1.5
+            },
+            {
+                "Price": 9000,
+                "Range": 50,
+                "Damage": 12000,
+                "Cooldown": 1,
+                "SummonTime": 5,
+                "Health": 100000,
+                "WalkSpeed": 11,
+                "Unit": "Robo fredber",
+                "Offset": -1.5
+            }
+        ]
+    },
     "Last Hacker Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://118396094761314",
