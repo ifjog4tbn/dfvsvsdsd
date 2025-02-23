@@ -61,7 +61,7 @@
     "Killer Guy": {
         "Type": "Summoner",
         "Image": "rbxassetid://74869359441008",
-        "Rarity": "Celestial",
+        "Rarity": "Cosmic",
         "PlacePrice": 1200,
         "Max": 3,
         "hitboxOffset": {
