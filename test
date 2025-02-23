@@ -1,7 +1,7 @@
 {
     "Gravehack Foxy": {
         "Type": "Summoner",
-        "Image": "rbxassetid://18673630095",
+        "Image": "rbxassetid://92670238958444",
         "Rarity": "Celestial",
         "PlacePrice": 20000,
         "Max": 2,
@@ -60,7 +60,7 @@
     },
     "Killer Guy": {
         "Type": "Summoner",
-        "Image": "rbxassetid://18673630095",
+        "Image": "rbxassetid://74869359441008",
         "Rarity": "Celestial",
         "PlacePrice": 1200,
         "Max": 3,
