@@ -1,4 +1,121 @@
 {
+    "Eclipse": {
+        "Type": "Single",
+        "Image": "rbxassetid://91251907054257",
+        "Rarity": "Mythic",
+        "PlacePrice": 3000,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 1700,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 4500,
+                "Range": 22,
+                "Damage": 2000,
+                "Cooldown": 1.7
+            },
+            {
+                "Price": 6000,
+                "Range": 24,
+                "Damage": 2500,
+                "Cooldown": 1.6
+            },
+            {
+                "Price": 8000,
+                "Range": 25,
+                "Damage": 3000,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+    "The Mimic": {
+        "Type": "Slash",
+        "Image": "rbxassetid://108843809969916",
+        "Rarity": "Secret",
+        "PlacePrice": 16000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 24,
+                "Damage": 17500,
+                "Cooldown": 2.3
+            },
+            {
+                "Price": 20000,
+                "Range": 27,
+                "Damage": 22500,
+                "Cooldown": 2.2
+            },
+            {
+                "Price": 25000,
+                "Range": 29,
+                "Damage": 25000,
+                "Cooldown": 2.1
+            },
+            {
+                "Price": 30000,
+                "Range": 30,
+                "Damage": 35000,
+                "Cooldown": 2
+            }
+        ]
+    },
+    "Nightmare Bot": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://122930850408296",
+        "Rarity": "Epic",
+        "PlacePrice": 600,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 450,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 800,
+                "Range": 22,
+                "Damage": 500,
+                "Cooldown": 1.7
+            },
+            {
+                "Price": 1000,
+                "Range": 24,
+                "Damage": 650,
+                "Cooldown": 1.6
+            },
+            {
+                "Price": 1200,
+                "Range": 25,
+                "Damage": 800,
+                "Cooldown": 1.5
+            }
+        ]
+    },
     "Flaming Springtrap": {
         "Type": "Splash Burn + Slow",
         "Image": "rbxassetid://90439626995960",
