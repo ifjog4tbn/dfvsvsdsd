@@ -1,4 +1,118 @@
 {
+    "Astral Guy": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://116839716727853",
+        "Rarity": "Celestial",
+        "PlacePrice": 25000,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 25500,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 37000,
+                "Range": 45,
+                "Damage": 35000,
+                "Cooldown": 1.3
+            },
+            {
+                "Price": 40000,
+                "Range": 55,
+                "Damage": 45000,
+                "Cooldown": 1.1
+            },
+            {
+                "Price": 55000,
+                "Range": 60,
+                "Damage": 50000,
+                "Cooldown": 1
+            }
+        ]
+    },
+    "Steampunk Mangle": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://107243134177018",
+        "Rarity": "Galactic",
+        "PlacePrice": 15000,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 8550,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 27000,
+                "Range": 35,
+                "Damage": 15000,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 30000,
+                "Range": 45,
+                "Damage": 25000,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 35000,
+                "Range": 50,
+                "Damage": 10000,
+                "Cooldown": 0.1
+            }
+        ]
+    },
+    "Mech purple guy": {
+        "Type": "Dual",
+        "Image": "rbxassetid://79686508953760",
+        "Rarity": "Cosmic",
+        "PlacePrice": 12000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 8550,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 17000,
+                "Range": 27,
+                "Damage": 15000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 20000,
+                "Range": 33,
+                "Damage": 25000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 25000,
+                "Range": 41,
+                "Damage": 35000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "MLISRANDOM": {
         "Type": "Pierce",
         "Image": "rbxassetid://133546308949557",
