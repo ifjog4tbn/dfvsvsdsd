@@ -1,4 +1,123 @@
 {
+    "Invincible Endo Freddy": {
+        "Type": "Mega",
+        "Image": "rbxassetid://121800997853214",
+        "Rarity": "Unique",
+        "PlacePrice": 44444,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 25500,
+                "Cooldown": 2
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 35500,
+                "Cooldown": 2
+            },
+            {
+                "Price": 30000,
+                "Range": 55,
+                "Damage": 56000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 40000,
+                "Range": 65,
+                "Damage": 67000,
+                "Cooldown": 2
+            }
+        ]
+    },
+    "Sword Slicer Freddy": {
+        "Type": "Continuous Slow",
+        "Image": "rbxassetid://77664536452933",
+        "Rarity": "Galactic",
+        "PlacePrice": 2000,
+        "Max": 3,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies by 70%"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 40,
+                "Cooldown": 0.05,
+                "Slow": 0.7
+            },
+            {
+                "Price": 3400,
+                "Range": 17,
+                "Damage": 69,
+                "Cooldown": 0.05,
+                "Slow": 0.6
+            },
+            {
+                "Price": 4000,
+                "Range": 20,
+                "Damage": 79,
+                "Cooldown": 0.05,
+                "Slow": 0.5
+            },
+            {
+                "Price": 5000,
+                "Range": 35,
+                "Damage": 100,
+                "Cooldown": 0.05,
+                "Slow": 0.3
+            }
+        ]
+    },
+    "Gun Endo Freddy": {
+        "Type": "Mega",
+        "Image": "rbxassetid://114395188958264",
+        "Rarity": "Unique",
+        "PlacePrice": 44444,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 25500,
+                "Cooldown": 2
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 35500,
+                "Cooldown": 2
+            },
+            {
+                "Price": 30000,
+                "Range": 55,
+                "Damage": 56000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 40000,
+                "Range": 65,
+                "Damage": 67000,
+                "Cooldown": 2
+            }
+        ]
+    },
     "Astral Guy": {
         "Type": "Pierce",
         "Image": "rbxassetid://116839716727853",
@@ -52,25 +171,25 @@
             {
                 "Price": 0,
                 "Range": 30,
-                "Damage": 8550,
+                "Damage": 2500,
                 "Cooldown": 0.1
             },
             {
                 "Price": 27000,
                 "Range": 35,
-                "Damage": 15000,
+                "Damage": 3000,
                 "Cooldown": 0.1
             },
             {
                 "Price": 30000,
                 "Range": 45,
-                "Damage": 25000,
+                "Damage": 4000,
                 "Cooldown": 0.1
             },
             {
                 "Price": 35000,
                 "Range": 50,
-                "Damage": 10000,
+                "Damage": 5000,
                 "Cooldown": 0.1
             }
         ]
