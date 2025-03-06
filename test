@@ -1,7 +1,7 @@
 {
     "Invincible Endo Freddy": {
         "Type": "Mega",
-        "Image": "rbxassetid://18363541545",
+        "Image": "rbxassetid://121800997853214",
         "Rarity": "Unique",
         "PlacePrice": 44444,
         "Max": 1,
@@ -39,7 +39,7 @@
     },
     "Sword Slicer Freddy": {
         "Type": "Continuous Slow",
-        "Image": "rbxassetid://18363541545",
+        "Image": "rbxassetid://77664536452933",
         "Rarity": "Galactic",
         "PlacePrice": 2000,
         "Max": 3,
@@ -82,7 +82,7 @@
     },
     "Gun Endo Freddy": {
         "Type": "Mega",
-        "Image": "rbxassetid://18363541545",
+        "Image": "rbxassetid://114395188958264",
         "Rarity": "Unique",
         "PlacePrice": 44444,
         "Max": 1,
