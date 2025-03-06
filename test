@@ -1,6 +1,6 @@
 {
     "Invincible Endo Freddy": {
-        "Type": "Mega",
+        "Type": "Single",
         "Image": "rbxassetid://121800997853214",
         "Rarity": "Unique",
         "PlacePrice": 44444,
@@ -81,7 +81,7 @@
         ]
     },
     "Gun Endo Freddy": {
-        "Type": "Mega",
+        "Type": "Single",
         "Image": "rbxassetid://114395188958264",
         "Rarity": "Unique",
         "PlacePrice": 44444,
