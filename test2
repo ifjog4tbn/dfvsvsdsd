@@ -2,7 +2,7 @@
     "Invincible Endo Freddy": {
         "Type": "Mega",
         "Image": "rbxassetid://121800997853214",
-        "Rarity": "Cosmic",
+        "Rarity": "Unique",
         "PlacePrice": 44444,
         "Max": 1,
         "hitboxOffset": {
