@@ -21,7 +21,7 @@
                 "Health": 10000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "Offset": -0.7
             },
             {
                 "Price": 12000,
@@ -32,7 +32,7 @@
                 "Health": 15000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "Offset": -0.7
             },
             {
                 "Price": 16000,
@@ -43,7 +43,7 @@
                 "Health": 25000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "Offset": -0.7
             },
             {
                 "Price": 20000,
@@ -54,7 +54,7 @@
                 "Health": 50000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "Offset": -0.7
             }
         ]
     },
