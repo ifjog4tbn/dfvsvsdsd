@@ -2,9 +2,9 @@
     "Commando Freddy": {
         "Type": "Summoner",
         "Image": "rbxassetid://72286151841533",
-        "Rarity": "Secret",
+        "Rarity": "Cosmic",
         "PlacePrice": 2000,
-        "Max": 10,
+        "Max": 3,
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
