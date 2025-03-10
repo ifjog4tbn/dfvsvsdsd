@@ -18,7 +18,7 @@
                 "Damage": 800,
                 "Cooldown": 0.4,
                 "SummonTime": 4,
-                "Health": 10000,
+                "Health": 20000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
                 "Offset": -0.7
@@ -29,7 +29,7 @@
                 "Damage": 1000,
                 "Cooldown": 0.4,
                 "SummonTime": 3,
-                "Health": 15000,
+                "Health": 35000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
                 "Offset": -0.7
@@ -40,7 +40,7 @@
                 "Damage": 1200,
                 "Cooldown": 0.4,
                 "SummonTime": 2,
-                "Health": 25000,
+                "Health": 55000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
                 "Offset": -0.7
@@ -51,7 +51,7 @@
                 "Damage": 1400,
                 "Cooldown": 0.4,
                 "SummonTime": 1,
-                "Health": 50000,
+                "Health": 90000,
                 "WalkSpeed": 15,
                 "Unit": "TankCake",
                 "Offset": -0.7
