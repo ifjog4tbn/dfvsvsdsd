@@ -1,4 +1,63 @@
 {
+    "Commando Freddy": {
+        "Type": "Attacking Summoner",
+        "Image": "rbxassetid://72286151841533",
+        "Rarity": "Cosmic",
+        "PlacePrice": 2000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -1.5,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 800,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
+                "Health": 10000,
+                "WalkSpeed": 15,
+                "Unit": "TankCake",
+                "Offset": -0.7
+            },
+            {
+                "Price": 12000,
+                "Range": 28,
+                "Damage": 1000,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
+                "Health": 15000,
+                "WalkSpeed": 15,
+                "Unit": "TankCake",
+                "Offset": -0.7
+            },
+            {
+                "Price": 16000,
+                "Range": 32,
+                "Damage": 1200,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
+                "Health": 25000,
+                "WalkSpeed": 15,
+                "Unit": "TankCake",
+                "Offset": -0.7
+            },
+            {
+                "Price": 20000,
+                "Range": 35,
+                "Damage": 1400,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
+                "Health": 50000,
+                "WalkSpeed": 15,
+                "Unit": "TankCake",
+                "Offset": -0.7
+            }
+        ]
+    },
     "Invincible Endo Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://121800997853214",
