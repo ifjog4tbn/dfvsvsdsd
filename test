@@ -1,33 +1,33 @@
 {
     "Commando Freddy": {
-        "Type": "Attacking Summoner",
-        "Image": "rbxassetid://72286151841533",
-        "Rarity": "Cosmic",
-        "PlacePrice": 2000,
-        "Max": 3,
-        "hitboxOffset": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-        },
-        "Offset": -1.5,
-        "Upgrades": [
-            {
-                "Price": 0,
+        "Type": "Attacking Summoner",
+        "Image": "rbxassetid://72286151841533",
+        "Rarity": "Cosmic",
+        "PlacePrice": 2000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -1.5,
+        "Upgrades": [
+            {
+                "Price": 0,
                 "Range": 8,
                 "Damage": 100,
-                "Cooldown": 0.1,
+                "Cooldown": 0.4,
                 "SummonTime": 4,
                 "Health": 10000,
                 "WalkSpeed": 11,
                 "Unit": "TankCake",
-                "Offset": -1.5
-            },
+                "Offset": -1.5
+            },
             {
                 "Price": 2500,
                 "Range": 10,
                 "Damage": 150,
-                "Cooldown": 0.1,
+                "Cooldown": 0.3,
                 "SummonTime": 4,
                 "Health": 15000,
                 "WalkSpeed": 11,
@@ -38,7 +38,7 @@
                 "Price": 3000,
                 "Range": 12,
                 "Damage": 200,
-                "Cooldown": 0.1,
+                "Cooldown": 0.2,
                 "SummonTime": 4,
                 "Health": 25000,
                 "WalkSpeed": 11,
@@ -54,10 +54,10 @@
                 "Health": 40000,
                 "WalkSpeed": 11,
                 "Unit": "TankCake",
-                "Offset": -1.5
-            }
-        ]
-    },
+                "Offset": -1.5
+            }
+        ]
+    },
     "Invincible Endo Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://121800997853214",
