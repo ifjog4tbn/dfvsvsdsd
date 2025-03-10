@@ -14,47 +14,47 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 8,
-                "Damage": 100,
-                "Cooldown": 0.4,
-                "SummonTime": 4,
-                "Health": 10000,
-                "WalkSpeed": 11,
+                "Range": 25,
+                "Damage": 800,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "WalkSpeed": 15,
+                "SummonRange": 25,
+                "SummonCooldown": 0.2
             },
-            {
-                "Price": 2500,
-                "Range": 10,
-                "Damage": 150,
-                "Cooldown": 0.3,
-                "SummonTime": 4,
-                "Health": 15000,
-                "WalkSpeed": 11,
+            {
+                "Price": 12000,
+                "Range": 28,
+                "Damage": 1000,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
                 "Unit": "TankCake",
-                "Offset": -1.5
-            },
-            {
-                "Price": 3000,
-                "Range": 12,
-                "Damage": 200,
-                "Cooldown": 0.2,
-                "SummonTime": 4,
-                "Health": 25000,
-                "WalkSpeed": 11,
+                "WalkSpeed": 15,
+                "SummonRange": 25,
+                "SummonCooldown": 0.2
+            },
+            {
+                "Price": 16000,
+                "Range": 32,
+                "Damage": 1200,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
                 "Unit": "TankCake",
-                "Offset": -1.5
-            },
-            {
-                "Price": 4000,
-                "Range": 14,
-                "Damage": 250,
-                "Cooldown": 0.1,
-                "SummonTime": 4,
-                "Health": 40000,
-                "WalkSpeed": 11,
+                "WalkSpeed": 15,
+                "SummonRange": 25,
+                "SummonCooldown": 0.2
+            },
+            {
+                "Price": 20000,
+                "Range": 35,
+                "Damage": 1400,
+                "Cooldown": 0.4,
+                "SummonTime": 30,
                 "Unit": "TankCake",
-                "Offset": -1.5
+                "WalkSpeed": 15,
+                "SummonRange": 25,
+                "SummonCooldown": 0.2
             }
         ]
     },
