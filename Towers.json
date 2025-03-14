@@ -1,0 +1,1238 @@
+{
+	["Kuzya"] = {
+		name = "Kuzya",
+		rarity = "Common",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+
+		Damage = 10,
+		Range = 12,
+		Cooldown = 2,
+
+		MaxDamage = 25,
+		MaxRange = 16,
+		MaxCooldown = 1,
+
+		DPS = 5,
+		MaxDPS = 25,
+
+		Image = "rbxassetid://125579937334487",
+
+		Price = 100,
+		Description = "Obtain from Summon - 40%",
+	},	
+	["Sniper Kuzya"] = {
+		name = "Sniper Kuzya",
+		rarity = "Common",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎯Sniper🎯",
+		Admin = true,
+
+		Damage = 100,
+		Range = 25,
+		Cooldown = 5,
+
+		MaxDamage = 500,
+		MaxRange = 30,
+		MaxCooldown = 4,
+
+		DPS = 20,
+		MaxDPS = 125,
+
+		Image = "rbxassetid://88956679183636",
+
+		Price = 100,
+		Description = "Obtain from Workshop",
+	},
+	["Barni"] = {
+		name = "Barni",
+		rarity = "Uncommon",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧨Splash🧨",
+
+		Damage = 15,
+		Range = 10,
+		Cooldown = 3,
+
+		MaxDamage = 40,
+		MaxRange = 14,
+		MaxCooldown = 2,
+
+		DPS = 5,
+		MaxDPS = 20,
+
+		Image = "rbxassetid://112098845546775",
+
+		Price = 300,
+		Description = "Obtain from Summon - 30%",
+	},
+	["Child Soul"] = {
+		name = "Child Soul",
+		rarity = "Uncommon",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+		
+		Damage = 25,
+		Range = 11,
+		Cooldown = 2,
+
+		MaxDamage = 25,
+		MaxRange = 15,
+		MaxCooldown = 0.5,
+
+		DPS = 12.5,
+		MaxDPS = 50,
+
+		Image = "rbxassetid://130460557115243",
+
+		Price = 500,
+		Description = "Obtain from Summon - 30%",
+	},
+	["Child Souls"] = {
+		name = "Child Souls",
+		rarity = "Uncommon",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun + Slow❄️",
+		Admin = true,
+
+		Damage = 200,
+		Range = 11,
+		Cooldown = 1,
+
+		MaxDamage = 200,
+		MaxRange = 15,
+		MaxCooldown = 0.25,
+
+		DPS = 200,
+		MaxDPS = 800,
+
+		TypeInfo = "Slows enemy by 25%",
+		Image = "rbxassetid://85071463814867",
+
+		Price = 1000,
+		Description = "Obtain from Workshop",
+	},
+	["Sweater Barni"] = {
+		name = "Sweater Barni",
+		rarity = "Uncommon",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💣Explosive💣",
+		Admin = true,
+
+		Damage = 150,
+		Range = 12,
+		Cooldown = 2,
+
+		MaxDamage = 1000,
+		MaxRange = 15,
+		MaxCooldown = 1,
+
+		DPS = 75,
+		MaxDPS = 1000,
+
+		Image = "rbxassetid://98387943541430",
+
+		Price = 600,
+		Description = "Obtain from Workshop",
+	},
+	["Balloon Boy"] = {
+		name = "Balloon Boy",
+		rarity = "Rare",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+		
+		Damage = 50,
+		Range = 8,
+		Cooldown = 3,
+
+		MaxDamage = 150,
+		MaxRange = 14,
+		MaxCooldown = 2,
+
+		DPS = 16.5,
+		MaxDPS = 75,
+
+		Image = "rbxassetid://124617557260595",
+
+		Price = 500,
+		Description = "Obtain from Summon - 20%",
+	},
+	["Dragon"] = {
+		name = "Dragon",
+		rarity = "Epic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun⚡",
+		
+		Damage = 5,
+		Range = 13,
+		Cooldown = 0.25,
+
+		MaxDamage = 20,
+		MaxRange = 13,
+		MaxCooldown = 0.1,
+
+		DPS = 20,
+		MaxDPS = 200,
+
+		Image = "rbxassetid://138642535578630",
+
+		Price = 750,
+		Description = "Obtain from Summon - 6%",
+	},
+	["Huge Dragon"] = {
+		name = "Huge Dragon",
+		rarity = "Epic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun⚡",
+		Admin = true,
+
+		Damage = 100,
+		Range = 14,
+		Cooldown = 0.25,
+
+		MaxDamage = 300,
+		MaxRange = 19,
+		MaxCooldown = 0.1,
+
+		DPS = 400,
+		MaxDPS = 3000,
+
+		Image = "rbxassetid://120158529932876",
+
+		Price = 7500,
+		Description = "Obtain from Workshop",
+	},
+	
+	["Trollface"] = {
+		name = "Trollface",
+		rarity = "Epic",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+
+		Damage = 120,
+		Range = 9,
+		Cooldown = 4,
+
+		MaxDamage = 400,
+		MaxRange = 10.5,
+		MaxCooldown = 2.5,
+
+		DPS = 30,
+		MaxDPS = 160,
+
+		Image = "rbxassetid://127094672810454",
+
+		Price = 75,
+		Description = "Obtain from Summon - 6%",
+	},
+	------------------
+
+	["Mad Chef"] = {
+		name = "Mad Chef",
+		rarity = "Legendary",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Farm💰",
+
+		Damage = 50,
+		Range = 0,
+		Cooldown = 0,
+
+		MaxDamage = 500,
+		MaxRange = 0,
+		MaxCooldown = 0,
+
+		DPS = 50,
+		MaxDPS = 500,
+
+		Image = "rbxassetid://81067007526930",
+
+		Price = 400,
+		Description = "Obtain from Summon - 0.9%",
+	},
+	
+	["Lololoshka"] = {
+		name = "Lololoshka",
+		rarity = "Legendary",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧨Splash🧨",
+
+		Damage = 15,
+		Range = 6,
+		Cooldown = 2,
+
+		MaxDamage = 50,
+		MaxRange = 10,
+		MaxCooldown = 1.5,
+
+		DPS = 7.5,
+		MaxDPS = 33,
+
+		Image = "rbxassetid://77620857585677",
+
+		Price = 500,
+		Description = "Obtain from Summon - 0.9%",
+	},
+	
+	["Nightguard"] = {
+		name = "Nightguard",
+		rarity = "Legendary",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧊Stun🧊",
+
+		Damage = 50,
+		Range = 9,
+		Cooldown = 3,
+
+		MaxDamage = 100,
+		MaxRange = 13,
+		MaxCooldown = 2,
+
+		DPS = 16.5,
+		MaxDPS = 50,
+
+		Image = "rbxassetid://115536698658050",
+
+		Price = 900,
+		Description = "Obtain from Summon - 0.9%",
+	},
+	
+	["Realmshifter"] = {
+		name = "Realmshifter",
+		rarity = "Legendary",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💣Explosive💣",
+		Admin = true,
+
+		Damage = 500,
+		Range = 17,
+		Cooldown = 2,
+
+		MaxDamage = 3500,
+		MaxRange = 20,
+		MaxCooldown = 1,
+
+		DPS = 250,
+		MaxDPS = 3500,
+
+		Image = "rbxassetid://84055072320762",
+
+		Price = 2650,
+		Description = "Obtain from Workshop",
+	},
+
+	["Viktor Petrovich"] = {
+		name = "Viktor Petrovich",
+		rarity = "Legendary",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Farm + Single🔫",
+		Admin = true,
+
+		Damage = 50,
+		Range = 10,
+		Cooldown = 1,
+
+		MaxDamage = 200,
+		MaxRange = 12,
+		MaxCooldown = 1,
+
+		DPS = 50,
+		MaxDPS = 200,
+
+		Image = "rbxassetid://92276755396099",
+
+		Price = 300,
+		Description = "Obtain from Workshop",
+	},
+	
+	------------------
+
+	["Ink King"] = {
+		name = "Ink King",
+		rarity = "Mythic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎯Sniper🎯",
+		
+		Damage = 250,
+		Range = 18,
+		Cooldown = 5,
+
+		MaxDamage = 2000,
+		MaxRange = 24,
+		MaxCooldown = 4,
+
+		DPS = 50,
+		MaxDPS = 500,
+
+		Image = "rbxassetid://75171311788811",
+
+		Price = 1500,
+		Description = "Obtain from Summon - 0.1%",
+	},
+	
+	
+	["JDH"] = {
+		name = "JDH",
+		rarity = "Mythic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun⚡",
+		
+		Damage = 25,
+		Range = 18,
+		Cooldown = 0.25,
+
+		MaxDamage = 50,
+		MaxRange = 25,
+		MaxCooldown = 0.1,
+
+		DPS = 100,
+		MaxDPS = 500,
+
+		Image = "rbxassetid://108054442336332",
+
+		Price = 2500,
+		Description = "Obtain from Summon - 0.1%",
+	},
+	
+	["Pixel Dino"] = {
+		name = "Pixel Dino",
+		rarity = "Mythic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "Spawner",
+		
+		Damage = 100,
+		Range = 0,
+		Cooldown = 25,
+
+		MaxDamage = 2500,
+		MaxRange = 0,
+		MaxCooldown = 15,
+
+		DPS = 0,
+		MaxDPS = 0,
+
+		Image = "rbxassetid://89043907383699",
+
+		Price = 1300,
+		Description = "Obtain from Summon - 0.1%",
+	},
+
+	["Floppa"] = {
+		name = "Floppa",
+		rarity = "Mythic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Time Farm💰",
+		TypeFarm = true,
+
+		Damage = 50,
+		Range = 0,
+		Cooldown = 5,
+
+		MaxDamage = 500,
+		MaxRange = 0,
+		MaxCooldown = 5,
+
+		DPS = 0,
+		MaxDPS = 0,
+		
+		TypeInfo = "Gives cash every 5 seconds",
+		Image = "rbxassetid://110490048571393",
+
+		Price = 400,
+		Description = "Obtain from Summon - 0.1%",
+	},		
+
+	------------------
+	
+	["Snickers"] = {
+		name = "Snickers",
+		rarity = "Exotic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧨Splash🧨",
+		
+		Damage = 1000,
+		Range = 6,
+		Cooldown = 5,
+
+		MaxDamage = 15000,
+		MaxRange = 9,
+		MaxCooldown = 3,
+
+		DPS = 200,
+		MaxDPS = 5000,
+
+		Image = "rbxassetid://80813391135522",
+
+		Price = 5000,
+		Description = "Obtain from Summon - 0.01%",
+	},
+
+	["Purple Guy"] = {
+		name = "Purple Guy",
+		rarity = "Exotic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+		
+		Damage = 1000,
+		Range = 10,
+		Cooldown = 4,
+
+		MaxDamage = 10000,
+		MaxRange = 12,
+		MaxCooldown = 2,
+
+		DPS = 250,
+		MaxDPS = 5000,
+
+		Image = "rbxassetid://86512188568869",
+
+		Price = 15000,
+		Description = "Obtain from Summon - 0.01%",
+	},
+	
+	["Johnoloshka"] = {
+		name = "Johnoloshka",
+		rarity = "Exotic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💣Explosive💣",
+
+		Damage = 700,
+		Range = 13,
+		Cooldown = 2,
+
+		MaxDamage = 4000,
+		MaxRange = 16,
+		MaxCooldown = 2,
+
+		DPS = 350,
+		MaxDPS = 2000,
+
+		Image = "rbxassetid://125534911395399",
+
+		Price = 8000,
+		Description = "Obtain from Summon - 0.01%",
+	},
+	
+	["Dr. Kleiner"] = {
+		name = "Dr. Kleiner",
+		rarity = "Exotic",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "❄️Slow❄️",
+
+		Damage = 1000,
+		Range = 13,
+		Cooldown = 3,
+
+		MaxDamage = 6000,
+		MaxRange = 20,
+		MaxCooldown = 2,
+
+		DPS = 333,
+		MaxDPS = 3000,
+
+		TypeInfo = "Slows enemy by 50%",
+		Image = "rbxassetid://110366114429741",
+
+		Price = 4000,
+		Description = "Obtain from Summon - 0.01%",
+	},
+	["Mafioso"] = {
+		name = "Mafioso",
+		rarity = "Exotic",
+		itemtype = "Tower",    Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "Spawner",
+		
+		Damage = 200,
+		Range = 0,
+		Cooldown = 20,
+
+		MaxDamage = 2500,
+		MaxRange = 0,
+		MaxCooldown = 10,
+
+		DPS = 0,
+		MaxDPS = 0,
+
+		Image = "rbxassetid://111603571759991",
+
+		Price = 175,
+		Description = "Obtain from Summon - 0.01%",
+	},
+	------------------
+
+	["Disco Freddy"] = {
+		name = "Disco Freddy",
+		rarity = "Secret",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎉Support🎉",
+		Hidden = true,
+		
+		Damage = 1000,
+		Range = 10,
+		Cooldown = 3,
+
+		MaxDamage = 3000,
+		MaxRange = 15,
+		MaxCooldown = 3,
+
+		DPS = 333,
+		MaxDPS = 1000,
+		
+		TypeInfo = "All units in range receive 10% - 50% boosts",
+		Image = "rbxassetid://96600438413446",
+
+		Price = 1000,
+		Description = "Obtain from Summon - 0.0005%",
+	},
+	
+	["Kuzvelia"] = {
+		name = "Kuzvelia",
+		rarity = "Secret",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "Spawner + Single🔫",
+		Hidden = true,
+		
+		Damage = 500,
+		Range = 9,
+		Cooldown = 1,
+
+		MaxDamage = 10000,
+		MaxRange = 15,
+		MaxCooldown = 5,
+
+		DPS = 500,
+		MaxDPS = 2000,
+
+		Image = "rbxassetid://111608264259081",
+
+		Price = 6900,
+		Description = "Obtain from Summon - 0.0005%",
+	},
+	
+	["The Entity"] = {
+		name = "The Entity",
+		rarity = "Secret",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💀Devourer💀",
+		Hidden = true,
+		
+		Damage = 0,
+		Range = 6,
+		Cooldown = 3,
+
+		MaxDamage = 0,
+		MaxRange = 6,
+		MaxCooldown = 3,
+
+		DPS = 0,
+		MaxDPS = 0,
+		
+		TypeInfo = "Oneshot enemies, if mini-boss or boss deals 5% damage (10% shiny)",
+		Image = "rbxassetid://91009248569462",
+
+		Price = 250000,
+		Description = "Obtain from Summon - 0.0005%",
+	},	
+	------------------
+
+	["Mr Bling Bling"] = {
+		name = "Mr Bling Bling",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Farm + Single🔫",
+
+		Damage = 300,
+		Range = 6,
+		Cooldown = 1.5,
+
+		MaxDamage = 1250,
+		MaxRange = 9,
+		MaxCooldown = 0.5,
+
+		DPS = 200,
+		MaxDPS = 2500,
+
+		Image = "rbxassetid://135314566323802",
+
+		Price = 1250,
+		Description = "Obtain from Bling Bling Pack!",
+	},
+	["Mr Robux"] = {
+		name = "Mr Robux",
+		rarity = "Exclusive",
+		itemtype = "Tower",     Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Time Farm + Splash🧨",
+		Damage = 600,
+		Range = 10,
+		Cooldown = 1.5,
+
+		MaxDamage = 2500,
+		MaxRange = 13,
+		MaxCooldown = 0.5,
+
+		DPS = 400,
+		MaxDPS = 5000,
+		
+		TypeInfo = "Gives cash every 10 seconds",
+		Image = "rbxassetid://83626228364699",
+
+		Price = 1100,
+		Description = "Obtain from Workshop",
+	},
+	["8 Bit Circus Baby"] = {
+		name = "8 Bit Circus Baby",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧨Splash🧨",
+
+		Damage = 88,
+		Range = 8,
+		Cooldown = 1,
+
+		MaxDamage = 888,
+		MaxRange = 18,
+		MaxCooldown = 1,
+
+		DPS = 88,
+		MaxDPS = 888,
+
+		Image = "rbxassetid://98172504529690",
+
+		Price = 888,
+		Description = "Obtain from 8 Bit Circus Baby Pack!",
+	},
+	["Cloudy"] = {
+		name = "Cloudy",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧨Splash🧨",
+
+		Damage = 900,
+		Range = 10,
+		Cooldown = 3,
+
+		MaxDamage = 3000,
+		MaxRange = 16,
+		MaxCooldown = 2,
+
+		DPS = 300,
+		MaxDPS = 1500,
+
+		Image = "rbxassetid://98306882181957",
+
+		Price = 1000,
+		Description = "Obtain from Cloudy Pack! Concept by @GarrDer",
+	},
+	["Baldi"] = {
+		name = "Baldi",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun⚡",
+		
+		Damage = 100,
+		Range = 10,
+		Cooldown = 1,
+
+		MaxDamage = 100,
+		MaxRange = 13,
+		MaxCooldown = 0.25,
+
+		DPS = 100,
+		MaxDPS = 400,
+
+		Image = "rbxassetid://91521388145120",
+
+		Price = 200,
+		Description = "Obtain from Baldi Pack!",
+	},	
+	
+	["Santa Bot"] = {
+		name = "Santa Bot",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⚡Minigun⚡",
+		
+		Damage = 40,
+		Range = 14,
+		Cooldown = 0.35,
+
+		MaxDamage = 250,
+		MaxRange = 18,
+		MaxCooldown = 0.1,
+
+		DPS = 115,
+		MaxDPS = 2500,
+
+		Image = "rbxassetid://83679658576423",
+
+		Price = 1500,
+		Description = "Obtain from Santa Bot Pack!",
+	},
+	
+	["Steve"] = {
+		name = "Steve",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+
+		Damage = 300,
+		Range = 8,
+		Cooldown = 3,
+
+		MaxDamage = 400,
+		MaxRange = 11,
+		MaxCooldown = 0.5,
+
+		DPS = 100,
+		MaxDPS = 800,
+
+		Image = "rbxassetid://110152625180487",
+
+		Price = 1250,
+		Description = "Obtain from Steve Pack!",
+	},
+	
+	["Overlord Ink King"] = {
+		name = "Overlord Ink King",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎯Sniper + Splash🧨",
+
+		Damage = 3750,
+		Range = 30,
+		Cooldown = 5,
+
+		MaxDamage = 35000,
+		MaxRange = 45,
+		MaxCooldown = 5,
+
+		DPS = 750,
+		MaxDPS = 7000,
+
+		Image = "rbxassetid://112978290455900",
+
+		Price = 40000,
+		Description = "Obtain from Overlord Ink King Pack! Concept by @Lev79767",
+	},
+	
+	["Helpi"] = {
+		name = "Helpi",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "⛓️Chain⛓️",
+
+		Damage = 500,
+		Range = 12,
+		Cooldown = 2,
+
+		MaxDamage = 2250,
+		MaxRange = 12,
+		MaxCooldown = 2,
+
+		DPS = 250,
+		MaxDPS = 1125,
+		
+		TypeInfo = "Deals damage to 10 enemies",
+		Image = "rbxassetid://98465649348845",
+
+		Price = 1850,
+		Description = "Obtain from Helpi Pack!",
+	},	
+	["Baller"] = {
+		name = "Baller",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🏀Baller🏀",
+		Admin = true,
+
+		Damage = 100,
+		Range = 17,
+		Cooldown = 2,
+
+		MaxDamage = 500,
+		MaxRange = 20,
+		MaxCooldown = 1,
+
+		DPS = 500,
+		MaxDPS = 4000,
+
+		TypeInfo = "Boing! Ball targets an enemy for 5-8 times",
+		Image = "rbxassetid://128426157612942",
+
+		Price = 900,
+		Description = "Obtain from Baller Pack!",
+	},
+	["Winner Snickers"] = {
+		name = "Winner Snickers",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🏹Hunter + Splash🧨",
+		Admin = true,
+
+		Damage = 7777,
+		Range = 7,
+		Cooldown = 7,
+
+		MaxDamage = 77777,
+		MaxRange = 12,
+		MaxCooldown = 7,
+
+		DPS = 1111,
+		MaxDPS = 11111,
+
+		TypeInfo = "Gives cash for every his kill",
+		Image = "rbxassetid://103757654199565",
+
+		Price = 7777,
+		Description = "Obtain from Challenges!",
+	},
+	["Lovely Duo"] = {
+		name = "Lovely Duo",
+		rarity = "Exclusive",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎉Cooldown Boost + AOE Slow❄️",
+
+		Damage = 0,
+		Range = 16,
+		Cooldown = 1,
+
+		MaxDamage = 0,
+		MaxRange = 19,
+		MaxCooldown = 1,
+
+		DPS = 0,
+		MaxDPS = 0,
+
+		TypeInfo = "All units in range receive 15% - 30% cooldown boost, slows enemies by 30%",
+		Image = "rbxassetid://127630820631872",
+
+		Price = 5050,
+		Description = "Obtain from Lovely Pack!",
+	},
+	["Nagiev"] = {
+		name = "Nagiev",
+		rarity = "Exclusive",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💰Time Farm + Single🔫",
+
+		Damage = 1000,
+		Range = 8,
+		Cooldown = 2,
+
+		MaxDamage = 4000,
+		MaxRange = 11.5,
+		MaxCooldown = 1.5,
+
+		DPS = 500,
+		MaxDPS = 2665,
+
+		TypeInfo = "Gives cash every 10 seconds",
+		Image = "rbxassetid://88438118266332",
+
+		Price = 7000,
+		Description = "Obtain from Nagiev Pack!",
+	},
+	
+	["Paradoxer"] = {
+		name = "Paradoxer",
+		rarity = "Exclusive",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "💫Aura💫",
+		Admin = true,
+
+		Damage = 400,
+		Range = 10.5,
+		Cooldown = 1,
+
+		MaxDamage = 2300,
+		MaxRange = 13,
+		MaxCooldown = 0.75,
+
+		DPS = 400,
+		MaxDPS = 3066,
+
+		TypeInfo = "Every 60 seconds gets x2 stats for 10 seconds",
+		Image = "rbxassetid://115593493738385",
+
+		Price = 3250,
+		Description = "Obtain from Paradoxer Pack!",
+	},
+	------------------
+
+	["Party Kuzya"] = {
+		name = "Party Kuzya",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔫Single🔫",
+
+		Damage = 50,
+		Range = 12,
+		Cooldown = 2,
+
+		MaxDamage = 150,
+		MaxRange = 16,
+		MaxCooldown = 2,
+
+		DPS = 25,
+		MaxDPS = 75,
+
+		Image = "rbxassetid://82901306497589",
+
+		Price = 100,
+		Description = "Obtain from 1M visits code",
+	},
+	["Builderman"] = {
+		name = "Builderman",
+		rarity = "Exclusive",
+		itemtype = "Tower",		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🧠Genius🧠",
+
+		Damage = 460,
+		Range = 10.5,
+		Cooldown = 1,
+
+		MaxDamage = 2009,
+		MaxRange = 13,
+		MaxCooldown = 1,
+
+		DPS = 460,
+		MaxDPS = 2009,
+
+		TypeInfo = "Ignores enemy defense",
+		Image = "rbxassetid://72419663814817",
+
+		Price = 1650,
+		Description = "Obtain from Season 1 tier 50",
+	},
+	["Boxy Boo"] = {
+		name = "Boxy Boo",
+		rarity = "Exclusive",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🎯Sniper + Splash🧨",
+
+		Damage = 5000,
+		Range = 24,
+		Cooldown = 5,
+
+		MaxDamage = 12000,
+		MaxRange = 30,
+		MaxCooldown = 3,
+
+		DPS = 1000,
+		MaxDPS = 4000,
+
+		Image = "rbxassetid://79245757526996",
+
+		Price = 8350,
+		Description = "Obtain from Season 2 tier 50",
+	},
+	["Metal Sonic"] = {
+		name = "Metal Sonic",
+		rarity = "Exclusive",
+		itemtype = "Tower",
+		Trait = {
+			["TraitName"] = "",
+			["Stat"] = "",
+			["Percent"] = 0,
+		},
+		Type = "🔥Fire🔥",
+		Damage = 40,
+		Range = 9,
+		Cooldown = 2,
+
+		MaxDamage = 250,
+		MaxRange = 12,
+		MaxCooldown = 2,
+
+		DPS = 400,
+		MaxDPS = 2500,
+
+		TypeInfo = "Deals Damage to enemies over time! (Bosses excluded)",
+		Image = "rbxassetid://116628566346319",
+
+		Price = 2150,
+		Description = "Obtain from 2.5M visits code",
+	},
+}
