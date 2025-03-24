@@ -1,4 +1,161 @@
 {
+    "Scarecrow Foxy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://112050273953919",
+        "Rarity": "Nightmare",
+        "PlacePrice": 16000,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 6000,
+                "Cooldown": 3,
+            },
+            {
+                "Price": 20000,
+                "Range": 27,
+                "Damage": 7000,
+                "Cooldown": 3,
+            },
+            {
+                "Price": 25000,
+                "Range": 28,
+                "Damage": 8000,
+                "Cooldown": 3,
+            },
+            {
+                "Price": 30000,
+                "Range": 30,
+                "Damage": 9000,
+                "Cooldown": 3,
+            }
+        ]
+    },
+    "Gilded Knight": {
+        "Type": "AOE",
+        "Image": "rbxassetid://120947166823124",
+        "Rarity": "Apex",
+        "PlacePrice": 21000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 14000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 25000,
+                "Range": 30,
+                "Damage": 17000,
+                "Cooldown": 2.8
+            },
+            {
+                "Price": 30000,
+                "Range": 32,
+                "Damage": 20000,
+                "Cooldown": 2.6
+            },
+            {
+                "Price": 35000,
+                "Range": 35,
+                "Damage": 24000,
+                "Cooldown": 2.5
+            }
+        ]
+    },
+    "Titan Crusher Freddy": {
+        "Type": "AOE",
+        "Image": "rbxassetid://78775426136136",
+        "Rarity": "Apex",
+        "PlacePrice": 40000,
+        "Offset": 0,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 43000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 60000,
+                "Range": 32,
+                "Damage": 56000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 80000,
+                "Range": 35,
+                "Damage": 65000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 100000,
+                "Range": 40,
+                "Damage": 87000,
+                "Cooldown": 3
+            }
+        ]
+    },
+    "Gaia Chica": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://137838669403437",
+        "Rarity": "Unique",
+        "PlacePrice": 49000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 24,
+                "Damage": 52000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 60000,
+                "Range": 25,
+                "Damage": 65000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 70000,
+                "Range": 27,
+                "Damage": 87000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 80000,
+                "Range": 32,
+                "Damage": 95000,
+                "Cooldown": 4
+            }
+        ]
+    },
+
     "Commando Freddy": {
         "Type": "Attacking Summoner",
         "Image": "rbxassetid://91526138241675",
