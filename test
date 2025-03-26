@@ -78,7 +78,7 @@
         ]
     },
     "Raider Freddy": {
-        "Type": "Cone AOE",
+        "Type": "Single",
         "Image": "rbxassetid://73048377720930",
         "Rarity": "Epic",
         "PlacePrice": 600,
