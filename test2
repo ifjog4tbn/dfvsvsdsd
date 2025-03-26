@@ -1,4 +1,161 @@
 {
+    "Android Mangle": {
+        "Type": "Splash",
+        "Image": "rbxassetid://114065925105074",
+        "Rarity": "Nightmare",
+        "PlacePrice": 10000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 1400,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 12000,
+                "Range": 24,
+                "Damage": 1600,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 14000,
+                "Range": 27,
+                "Damage": 1800,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 16000,
+                "Range": 30,
+                "Damage": 2200,
+                "Cooldown": 0.25
+            }
+        ]
+    },  
+    "Spring Trooper": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://124509672214842",
+        "Rarity": "Nightmare",
+        "PlacePrice": 8000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 1700,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 10000,
+                "Range": 22,
+                "Damage": 2000,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 12000,
+                "Range": 24,
+                "Damage": 2500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 1400,
+                "Range": 27,
+                "Damage": 3000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
+    "Raider Freddy": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://73048377720930",
+        "Rarity": "Epic",
+        "PlacePrice": 600,
+        "Offset": 0,
+        "Max": 4,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 250,
+                "Cooldown": 1
+            },
+            {
+                "Price": 800,
+                "Range": 22,
+                "Damage": 300,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1000,
+                "Range": 24,
+                "Damage": 350,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1200,
+                "Range": 25,
+                "Damage": 400,
+                "Cooldown": 1.2
+            }
+        ]
+    },
+    "Planet Buster Scott": {
+        "Type": "Splash",
+        "Image": "rbxassetid://89049349505606",
+        "Rarity": "Apex",
+        "PlacePrice": 50000,
+        "Offset": 0,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 53000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 65000,
+                "Range": 28,
+                "Damage": 65000,
+                "Cooldown": 2.9
+            },
+            {
+                "Price": 80000,
+                "Range": 32,
+                "Damage": 75000,
+                "Cooldown": 2.8
+            },
+            {
+                "Price": 100000,
+                "Range": 35,
+                "Damage": 99999,
+                "Cooldown": 2.8
+            }
+        ]
+    },
+
     "Scarecrow Foxy": {
         "Type": "Splash",
         "Image": "rbxassetid://112050273953919",
