@@ -36,7 +36,8 @@
                 "Damage": 2200,
                 "Cooldown": 0.25
             }
-        
+        ]
+    },  
     "Spring Trooper": {
         "Type": "Cone AOE",
         "Image": "rbxassetid://124509672214842",
