@@ -483,58 +483,6 @@ ESPsMain:CreateToggle("Items ESP", function(state)
     UpdateESP2()
 end)
 
-HelperMain:CreateButton("Normal Time", function()
-    local textLabel = game.Workspace.Train.TrainControls.TimeDial.SurfaceGui:WaitForChild("TextLabel")
-    
-    -- Включаем автоизменение размера текста и поддержку многострочного режима
-    textLabel.TextScaled = true
-    textLabel.TextWrapped = true
-
-    local function getMinutesUntilChange(hour, minute, ampm)
-        local totalMinutes = hour * 60 + minute -- Перевод времени в минуты
-
-        if ampm == "AM" then
-            if hour >= 5 and hour < 9 then
-                return ((9 * 60) - totalMinutes), "До ночи минут: "
-            end
-        elseif ampm == "PM" then
-            if hour >= 9 or hour < 5 then
-                local targetHour = 5
-                local targetMinutes = (targetHour * 60)
-                
-                if hour >= 9 then
-                    targetMinutes = targetMinutes + (24 * 60) -- Переход на следующий день
-                end
-
-                return (targetMinutes - totalMinutes), "До дня минут: "
-            end
-        end
-
-        return nil, nil
-    end
-
-    local function updateLabel()
-        while true do
-            local text = textLabel.Text
-            local hour, minute, ampm = text:match("(%d+):(%d+) (%a+)")
-            
-            if hour and minute and ampm then
-                hour = tonumber(hour)
-                minute = tonumber(minute)
-
-                local minutesUntil, prefix = getMinutesUntilChange(hour, minute, ampm)
-                if minutesUntil then
-                    textLabel.Text = prefix .. minutesUntil
-                end
-            end
-
-            wait(1) -- Обновление каждую секунду
-        end
-    end
-
-    updateLabel()
-end)
-
 HelperMain:CreateButton("IY", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
