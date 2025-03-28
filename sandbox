@@ -1,12 +1,540 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+print("Загрузка библиотеки...")
 
-]]--
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-print("Загрузка библиотеки...");local v0=loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))();local v1=v0:NewWindow("Visual");local v2=v1:NewSection("ESPs");local v3=v1:NewSection("Helpers");local v4={};local v5=false;local v6={Colors={Items=Color3.fromRGB(1207 -952 ,1087 -(18 + 964) ,395 -290 ),Animals=Color3.fromRGB(67 + 103 ,292 -207 ,1105 -(20 + 830) ),NightEnemies=Color3.fromRGB(85,1917 -(760 + 987) ,255),Zombies=Color3.fromRGB(1998 -(1789 + 124) ,1021 -(745 + 21) ,30 + 55 )},Settings={OutlineTransparency=0.2 -0 ,FillTransparency=0.6 -0 ,TextSize=5 + 11 ,BillboardSize=UDim2.new(0 + 0 ,44 + 76 ,0 -0 ,1 + 29 )}};local function v7(v20,v21,v22) local v23=0;local v24;local v25;local v26;while true do if (v23==(9 -5)) then v25.Parent=v20;v26=Instance.new("TextLabel");v26.Text=v20.Name;v26.Size=UDim2.new(1,0 + 0 ,406 -(118 + 287) ,0);v23=19 -14 ;end if (v23==(1058 -(87 + 968))) then v25.Size=v6.Settings.BillboardSize;v25.StudsOffset=Vector3.new(0 -0 ,5.5 -3 ,0 + 0 );v25.AlwaysOnTop=true;v25.LightInfluence=0;v23=4;end if (v23==(0 -0)) then if ( not v20 or  not v20.PrimaryPart) then return;end v24=Instance.new("Highlight");v24.Name="ESP_ProHighlight";v24.Adornee=v20;v23=1414 -(447 + 966) ;end if (v23==(5 -3)) then v24.Parent=v20;v25=Instance.new("BillboardGui");v25.Name="ESP_ProBillboard";v25.Adornee=v20.PrimaryPart;v23=1820 -(1703 + 114) ;end if ((706 -(376 + 325))==v23) then v26.TextColor3=v21;v26.BackgroundTransparency=1 -0 ;v26.TextSize=v6.Settings.TextSize;v26.Font=Enum.Font.SourceSansSemibold;v23=18 -12 ;end if (v23==(1 + 0)) then v24.FillColor=v21;v24.OutlineColor=v21;v24.FillTransparency=v6.Settings.FillTransparency;v24.OutlineTransparency=v6.Settings.OutlineTransparency;v23=4 -2 ;end if (v23==(20 -(9 + 5))) then v26.TextStrokeTransparency=376.4 -(85 + 291) ;v26.TextStrokeColor3=Color3.fromRGB(1285 -(243 + 1022) ,76 -56 ,17 + 3 );v26.Parent=v25;v4[v20]={Highlight=v24,Billboard=v25};break;end end end local function v8() local v27=1180 -(1123 + 57) ;while true do if (v27==(0 -0)) then for v202,v203 in pairs(v4) do if v203.Highlight then v203.Highlight:Destroy();end if v203.Billboard then v203.Billboard:Destroy();end end v4={};break;end end end local v9=true;local function v10() local v28=0 + 0 ;while true do if (v28==(254 -(163 + 91))) then v8();if v9 then local v215=workspace:FindFirstChild("RuntimeItems");if v215 then for v251,v252 in ipairs(v215:GetDescendants()) do if v252:IsA("Model") then v7(v252,v6.Colors.Items,"Items");end end end end break;end end end local function v11() v8();local v29=workspace:FindFirstChild("RuntimeItems");if v29 then for v152,v153 in ipairs(v29:GetDescendants()) do if v153:IsA("Model") then v7(v153,v6.Colors.Items,"Items");end end end local v30=workspace:FindFirstChild("Baseplates");if (v30 and ( #v30:GetChildren()>=(4 -2))) then local v114=1930 -(1869 + 61) ;local v115;local v116;local v117;while true do if (v114==(1 + 0)) then v117=v116 and v116:FindFirstChild("Animals") ;if v117 then for v253,v254 in ipairs(v117:GetDescendants()) do if v254:IsA("Model") then v7(v254,v6.Colors.Animals,"Animals");end end end break;end if (v114==(0 -0)) then v115=v30:GetChildren()[2 -0 ];v116=v115 and v115:FindFirstChild("CenterBaseplate") ;v114=1 + 0 ;end end end local v31=workspace:FindFirstChild("NightEnemies");if v31 then for v154,v155 in ipairs(v31:GetDescendants()) do if v155:IsA("Model") then v7(v155,v6.Colors.NightEnemies,"NightEnemies");end end end local v32=workspace:FindFirstChild("RandomBuildings") and workspace.RandomBuildings:FindFirstChild("DestroyedHouse") ;local v33=v32 and v32:FindFirstChild("StandaloneZombiePart") ;local v34=v33 and v33:FindFirstChild("Zombies") ;if v34 then for v156,v157 in ipairs(v34:GetChildren()) do if v157:IsA("Model") then v7(v157,v6.Colors.Zombies,"Zombies");end end end end local function v12() while v5 do v11();task.wait(0.5 + 0 );end end local v13=game:GetService("Players");local v14=game:GetService("RunService");local v15=false;local function v16(v35) local v36=0;local v37;while true do if (v36==(0 -0)) then v37=v35:FindFirstChildOfClass("Humanoid");if v37 then v37.DisplayDistanceType=Enum.HumanoidDisplayDistanceType.None;end break;end end end local function v17(v38) local v39=0 + 0 ;local v40;local v41;local v42;local v43;local v44;local v45;local v46;local v47;local v48;while true do if (v39==5) then v45=Instance.new("TextLabel");v45.Size=UDim2.new(2 -1 ,0,0.3 + 0 ,1474 -(1329 + 145) );v45.Position=UDim2.new(971 -(140 + 831) ,731 -(476 + 255) ,1850.35 -(1409 + 441) ,718 -(15 + 703) );v45.BackgroundTransparency=1 + 0 ;v45.TextScaled=true;v39=444 -(262 + 176) ;end if (v39==(1729 -(345 + 1376))) then v46.TextScaled=true;v46.Font=Enum.Font.GothamBold;v46.TextColor3=Color3.fromRGB(943 -(198 + 490) ,1126 -871 ,611 -356 );v46.TextStrokeTransparency=1206.2 -(696 + 510) ;v46.TextStrokeColor3=Color3.new(0,0 -0 ,1262 -(1091 + 171) );v39=2 + 7 ;end if (v39==(9 -6)) then v44.Size=UDim2.new(3 -2 ,374 -(123 + 251) ,0.3 -0 ,698 -(208 + 490) );v44.Position=UDim2.new(0 + 0 ,0 + 0 ,0,836 -(660 + 176) );v44.BackgroundTransparency=1 + 0 ;v44.TextScaled=true;v44.Font=Enum.Font.GothamBold;v39=3 + 1 ;end if ((1 + 3)==v39) then v44.TextColor3=Color3.fromRGB(2230 -(1913 + 62) ,457 -(14 + 188) ,675 -(534 + 141) );v44.TextStrokeTransparency=0.2 + 0 ;v44.TextStrokeColor3=Color3.new(0 + 0 ,0 -0 ,1933 -(565 + 1368) );v44.Text=v38.Name;v44.Parent=v43;v39=5 + 0 ;end if (v39==(1661 -(1477 + 184))) then if  not v38.Character then return;end v40=v38.Character;v41=v40:FindFirstChild("Head");if  not v41 then return;end v42=v40:FindFirstChildOfClass("Humanoid");v39=1 -0 ;end if (v39==9) then v46.Parent=v43;v47=nil;function v47() if (v42 and (v42.Health>(0 -0))) then v46.Text=tostring(math.floor(v42.Health))   .. " HP" ;else v43:Destroy();return;end local v204=v38:FindFirstChild("leaderstats");if v204 then local v237=0 -0 ;local v238;while true do if (v237==(1 + 0)) then v45.Text=v238;break;end if (v237==0) then v238="";for v260,v261 in pairs(v204:GetChildren()) do if (v261:IsA("IntValue") or v261:IsA("StringValue") or v261:IsA("NumberValue")) then v238=v238   .. v261.Name   .. ": "   .. tostring(v261.Value)   .. "  " ;end end v237=1 + 0 ;end end else v45.Text="";end end v48=nil;v48=v14.Heartbeat:Connect(function() local v205=396 -(115 + 281) ;while true do if (v205==(0 -0)) then if ( not v15 or  not v38 or  not v38.Parent or  not v40.Parent) then v43:Destroy();v48:Disconnect();return;end v47();break;end end end);v39=30 -20 ;end if (v39==(314 -(244 + 60))) then v47();break;end if ((4 -2)==v39) then v43.StudsOffset=Vector3.new(476 -(41 + 435) ,2.5 + 0 ,0 + 0 );v43.MaxDistance=math.huge;v43.Parent=v41;v43.AlwaysOnTop=true;v44=Instance.new("TextLabel");v39=7 -4 ;end if (v39==(1132 -(936 + 189))) then v45.Parent=v43;v46=Instance.new("TextLabel");v46.Size=UDim2.new(1 + 0 ,1613 -(1565 + 48) ,0.3 -0 ,867 -(550 + 317) );v46.Position=UDim2.new(0 -0 ,267 -(176 + 91) ,0.7 -0 ,0 -0 );v46.BackgroundTransparency=286 -(134 + 151) ;v39=1673 -(970 + 695) ;end if (v39==6) then v45.Font=Enum.Font.GothamBold;v45.TextColor3=Color3.fromRGB(0 -0 ,2130 -(157 + 1718) ,207 + 48 );v45.TextStrokeTransparency=0.2;v45.TextStrokeColor3=Color3.new(0 -0 ,1990 -(582 + 1408) ,0 -0 );v45.Text="";v39=8 -1 ;end if (v39==(3 -2)) then if  not v42 then return;end v16(v40);v43=Instance.new("BillboardGui");v43.Size=UDim2.new(1828 -(1195 + 629) ,0 -0 ,243 -(187 + 54) ,780 -(162 + 618) );v43.Adornee=v41;v39=2 + 0 ;end end end local function v18(v49) local function v50(v71) local v72=0;while true do if (v72==(0 + 0)) then task.wait(0.5 -0 );if v15 then local v240=0 -0 ;while true do if (v240==(0 -0)) then v16(v71);v17(v49);break;end end end break;end end end v49.CharacterAdded:Connect(v50);if v49.Character then v50(v49.Character);end end local function v19(v51) if v51.Character then local v118=v51.Character:FindFirstChild("Head");if v118 then local v206=0 + 0 ;local v207;while true do if (v206==(1227 -(322 + 905))) then v207=v118:FindFirstChildOfClass("BillboardGui");if v207 then v207:Destroy();end break;end end end end end v2:CreateToggle("All ESPs",function(v52) local v53=1636 -(1373 + 263) ;while true do if (v53==(1000 -(451 + 549))) then v5=v52;if v52 then local v219=0 + 0 ;while true do if ((0 -0)==v219) then v11();coroutine.wrap(v12)();break;end end else v8();end break;end end end);v2:CreateToggle("Player ESP",function(v54) local v55=0 -0 ;while true do if (v55==(1384 -(746 + 638))) then v15=v54;if v54 then for v241,v242 in ipairs(v13:GetPlayers()) do if (v242~=v13.LocalPlayer) then if v242.Character then v17(v242);end end end else for v243,v244 in ipairs(v13:GetPlayers()) do if v244.Character then local v255=0 + 0 ;local v256;while true do if ((0 -0)==v255) then v256=v244.Character:FindFirstChild("Head");if v256 then local v266=v256:FindFirstChildOfClass("BillboardGui");if v266 then v266:Destroy();end end break;end end end end end break;end end end);v2:CreateButton("Building + Zombies",function() local v56=game.Workspace:FindFirstChild("RandomBuildings");if  not v56 then warn("Folder not found");return;end local function v57(v73) if  not v73.PrimaryPart then for v208,v209 in ipairs(v73:GetChildren()) do if v209:IsA("BasePart") then v73.PrimaryPart=v209;break;end end end end local function v58(v74) local v75=341 -(218 + 123) ;local v76;local v77;local v78;while true do if ((1581 -(1535 + 46))==v75) then v76=v74:FindFirstChild("StandaloneZombiePart");if  not v76 then return 0 + 0 ;end v75=1 + 0 ;end if (v75==1) then v77=v76:FindFirstChild("Zombies");if  not v77 then return 560 -(306 + 254) ;end v75=1 + 1 ;end if (v75==(1 + 2)) then return v78;end if (v75==(3 -1)) then v78=1467 -(899 + 568) ;for v220,v221 in ipairs(v77:GetChildren()) do if v221:IsA("Model") then v78=v78 + (1899 -(260 + 1638)) ;end end v75=2 + 1 ;end end end local function v59(v79,v80,v81,v82) local v83=v79.PrimaryPart;if  not v83 then return nil;end local v84=v79:FindFirstChild(v82);if v84 then v84:Destroy();end local v85=Instance.new("BillboardGui");v85.Name=v82;v85.Size=UDim2.new(50,0 -0 ,48 -33 ,603 -(268 + 335) );v85.StudsOffset=Vector3.new(290 -(60 + 230) ,v81,572 -(426 + 146) );v85.Adornee=v83;v85.AlwaysOnTop=true;v85.Parent=v79;local v92=Instance.new("TextLabel");v92.Size=UDim2.new(1 + 0 ,0,1457 -(282 + 1174) ,811 -(569 + 242) );v92.BackgroundTransparency=1;v92.TextScaled=true;v92.TextColor3=Color3.new(2 -1 ,1 + 0 ,0);v92.TextStrokeColor3=Color3.new(0 -0 ,0 + 0 ,214 -(22 + 192) );v92.TextStrokeTransparency=0;v92.Font=Enum.Font.GothamBlack;v92.Text=v80;v92.Parent=v85;return v85;end local function v60(v103) local v104=v103:FindFirstChild("ZombieCounter");if v104 then local v199=v104:FindFirstChildOfClass("TextLabel");if v199 then local v222=1024 -(706 + 318) ;local v223;while true do if (v222==(1252 -(721 + 530))) then return v223;end if (v222==(1271 -(945 + 326))) then v223=v58(v103);v199.Text="Zombies: "   .. v223 ;v222=2 -1 ;end end end end return 0 -0 ;end local function v61(v105) local v106=0 + 0 ;local v107;local v108;local v109;while true do if (v106==(703 -(271 + 429))) then v109=v105:FindFirstChild("StandaloneZombiePart");if v109 then local v246=0 + 0 ;local v247;while true do if (v246==(0 -0)) then v247=v109:FindFirstChild("Zombies");if v247 then local v264=1500 -(1408 + 92) ;while true do if (v264==(1086 -(461 + 625))) then v247.ChildAdded:Connect(function() if v108 then v60(v105);end end);v247.ChildRemoved:Connect(function() if v108 then v60(v105);end end);break;end end end break;end end end v106=240 -(141 + 95) ;end if (v106==4) then v105:GetPropertyChangedSignal("Name"):Connect(function() local v224=1288 -(993 + 295) ;local v225;while true do if (v224==0) then v225=v105:FindFirstChild("ModelName");if v225 then local v262=0 + 0 ;local v263;while true do if (v262==(1171 -(418 + 753))) then v263=v225:FindFirstChildOfClass("TextLabel");if v263 then v263.Text=v105.Name;end break;end end end break;end end end);break;end if (v106==(1 + 1)) then v59(v105,v105.Name,7 + 58 ,"ModelName");task.spawn(function() local v226=0 + 0 ;local v227;local v228;local v229;while true do if (v226==(0 + 0)) then v227=529 -(406 + 123) ;v228=2 + 3 ;v226=1770 -(1749 + 20) ;end if (v226==(1 + 0)) then v229=1322 -(1249 + 73) ;while v227<v228  do local v259=v60(v105);if ((v259>(0 + 0)) and (v259==v229)) then break;end v229=v259;v227=v227 + (1146 -(466 + 679)) ;task.wait(0.5 + 0 );end break;end end end);v106=6 -3 ;end if (v106==(163 -(92 + 71))) then if  not v105:IsA("Model") then return;end v57(v105);v106=2 -1 ;end if (v106==(1 + 0)) then v107=v58(v105);v108=v59(v105,"Zombies: "   .. v107 ,84 -34 ,"ZombieCounter");v106=1902 -(106 + 1794) ;end end end local function v62() for v119,v120 in ipairs(v56:GetChildren()) do if v120:IsA("BillboardGui") then if ( not v120.Parent or  not v120.Parent:IsA("Model")) then v120:Destroy();end end end end local function v63() local v110=0 + 0 ;while true do if (v110==0) then v62();for v230,v231 in ipairs(v56:GetChildren()) do v61(v231);end break;end end end v63();v56.ChildAdded:Connect(function(v111) local v112=0 + 0 ;while true do if (v112==(0 + 0)) then task.wait(0.1 -0 );v61(v111);break;end end end);v56.ChildRemoved:Connect(function() local v113=0;while true do if (v113==(0 -0)) then task.wait(114.1 -(4 + 110) );v62();break;end end end);end);for v64,v65 in ipairs(v13:GetPlayers()) do v18(v65);end v13.PlayerAdded:Connect(v18);v13.PlayerRemoving:Connect(v19);v2:CreateToggle("Items ESP",function(v66) v9=v66;v10();end);v3:CreateButton("Normal Time",function() local v67=584 -(57 + 527) ;local v68;local v69;local v70;while true do if (v67==(1430 -(41 + 1386))) then function v70() while true do local v232=v68.Text;local v233,v234,v235=v232:match("(%d+):(%d+) (%a+)");if (v233 and v234 and v235) then local v248=103 -(17 + 86) ;local v249;local v250;while true do if (v248==(1791 -(573 + 1217))) then v249,v250=v69(v233,v234,v235);if v249 then v68.Text=v250   .. v249 ;end break;end if (v248==(0 -0)) then v233=tonumber(v233);v234=tonumber(v234);v248=1;end end end wait(1 + 0 );end end v70();break;end if (v67==(1 -0)) then v68.TextWrapped=true;v69=nil;v67=2;end if (v67==0) then v68=game.Workspace.Train.TrainControls.TimeDial.SurfaceGui:WaitForChild("TextLabel");v68.TextScaled=true;v67=2 -1 ;end if (v67==(168 -(122 + 44))) then function v69(v210,v211,v212) local v213=0;local v214;while true do if (v213==(1 -0)) then return nil,nil;end if (v213==(0 -0)) then v214=(v210 * (49 + 11)) + v211 ;if (v212=="AM") then if ((v210>=(6 -1)) and (v210<(815 -(118 + 688)))) then return (9 * (9 + 51)) -v214 ,"До ночи минут: ";end elseif (v212=="PM") then if ((v210>=(17 -8)) or (v210<(70 -(30 + 35)))) then local v267=0 + 0 ;local v268;local v269;while true do if (v267==(1257 -(1043 + 214))) then v268=1891 -(927 + 959) ;v269=v268 * (226 -166) ;v267=733 -(16 + 716) ;end if (v267==(1213 -(323 + 889))) then if (v210>=(23 -14)) then v269=v269 + ((604 -(361 + 219)) * (380 -(53 + 267))) ;end return v269-v214 ,"До дня минут: ";end end end end v213=1 + 0 ;end end end v70=nil;v67=6 -3 ;end end end);v3:CreateButton("IY",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();end);
+local PhantomForcesWindow3 = Library:NewWindow("Visual")
+
+local ESPsMain = PhantomForcesWindow3:NewSection("ESPs")
+
+local HelperMain = PhantomForcesWindow3:NewSection("Helpers")
+
+--For Functions
+
+local ESPHandles = {}
+local ESPEnabled = false
+local ESPConfig = {
+    Colors = {
+        Items = Color3.fromRGB(255, 105, 105),    
+        Animals = Color3.fromRGB(170, 85, 255),    
+        NightEnemies = Color3.fromRGB(85, 170, 255),
+        Zombies = Color3.fromRGB(85, 255, 85)       
+    },
+    Settings = {
+        OutlineTransparency = 0.2,
+        FillTransparency = 0.6,
+        TextSize = 16,
+        BillboardSize = UDim2.new(0, 120, 0, 30)
+    }
+}
+
+local function CreateESP(object, color, category)
+    if not object or not object.PrimaryPart then return end
+
+    local highlight = Instance.new("Highlight")
+    highlight.Name = "ESP_ProHighlight"
+    highlight.Adornee = object
+    highlight.FillColor = color
+    highlight.OutlineColor = color
+    highlight.FillTransparency = ESPConfig.Settings.FillTransparency
+    highlight.OutlineTransparency = ESPConfig.Settings.OutlineTransparency
+    highlight.Parent = object
+
+    local billboard = Instance.new("BillboardGui")
+    billboard.Name = "ESP_ProBillboard"
+    billboard.Adornee = object.PrimaryPart
+    billboard.Size = ESPConfig.Settings.BillboardSize
+    billboard.StudsOffset = Vector3.new(0, 2.5, 0)
+    billboard.AlwaysOnTop = true
+    billboard.LightInfluence = 0
+    billboard.Parent = object
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Text = object.Name
+    textLabel.Size = UDim2.new(1, 0, 1, 0)
+    textLabel.TextColor3 = color
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextSize = ESPConfig.Settings.TextSize
+    textLabel.Font = Enum.Font.SourceSansSemibold
+    textLabel.TextStrokeTransparency = 0.4
+    textLabel.TextStrokeColor3 = Color3.fromRGB(20, 20, 20)
+    textLabel.Parent = billboard
+
+    ESPHandles[object] = {Highlight = highlight, Billboard = billboard}
+end
+
+local function ClearESP()
+    for obj, handles in pairs(ESPHandles) do
+        if handles.Highlight then handles.Highlight:Destroy() end
+        if handles.Billboard then handles.Billboard:Destroy() end
+    end
+    ESPHandles = {}
+end
+
+local ItemsESPEnabled = true
+
+local function UpdateESP2()
+    ClearESP()
+
+    if ItemsESPEnabled then
+        local runtimeItems = workspace:FindFirstChild("RuntimeItems")
+        if runtimeItems then
+            for _, item in ipairs(runtimeItems:GetDescendants()) do
+                if item:IsA("Model") then
+                    CreateESP(item, ESPConfig.Colors.Items, "Items")
+                end
+            end
+        end
+    end
+end
+
+local function UpdateESP()
+    ClearESP()
+
+    local runtimeItems = workspace:FindFirstChild("RuntimeItems")
+    if runtimeItems then
+        for _, item in ipairs(runtimeItems:GetDescendants()) do
+            if item:IsA("Model") then
+                CreateESP(item, ESPConfig.Colors.Items, "Items")
+            end
+        end
+    end
+
+    local baseplates = workspace:FindFirstChild("Baseplates")
+    if baseplates and #baseplates:GetChildren() >= 2 then
+        local secondBaseplate = baseplates:GetChildren()[2]
+        local centerBaseplate = secondBaseplate and secondBaseplate:FindFirstChild("CenterBaseplate")
+        local animals = centerBaseplate and centerBaseplate:FindFirstChild("Animals")
+        if animals then
+            for _, animal in ipairs(animals:GetDescendants()) do
+                if animal:IsA("Model") then
+                    CreateESP(animal, ESPConfig.Colors.Animals, "Animals")
+                end
+            end
+        end
+    end
+
+    local nightEnemies = workspace:FindFirstChild("NightEnemies")
+    if nightEnemies then
+        for _, enemy in ipairs(nightEnemies:GetDescendants()) do
+            if enemy:IsA("Model") then
+                CreateESP(enemy, ESPConfig.Colors.NightEnemies, "NightEnemies")
+            end
+        end
+    end
+
+    local destroyedHouse = workspace:FindFirstChild("RandomBuildings") and workspace.RandomBuildings:FindFirstChild("DestroyedHouse")
+    local zombiePart = destroyedHouse and destroyedHouse:FindFirstChild("StandaloneZombiePart")
+    local zombies = zombiePart and zombiePart:FindFirstChild("Zombies")
+    if zombies then
+        for _, zombie in ipairs(zombies:GetChildren()) do
+            if zombie:IsA("Model") then
+                CreateESP(zombie, ESPConfig.Colors.Zombies, "Zombies")
+            end
+        end
+    end
+end
+
+local function AutoUpdateESP()
+    while ESPEnabled do
+        UpdateESP()
+        task.wait(0.5)
+    end
+end
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+local espEnabled = false
+
+local function hideDefaultNameTag(character)
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        humanoid.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None 
+    end
+end
+
+local function createHealthDisplay(player)
+    if not player.Character then return end
+    local character = player.Character
+    local head = character:FindFirstChild("Head")
+    if not head then return end
+
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if not humanoid then return end
+
+    hideDefaultNameTag(character)
+
+    local billboardGui = Instance.new("BillboardGui")
+    billboardGui.Size = UDim2.new(4, 0, 2, 0)
+    billboardGui.Adornee = head
+    billboardGui.StudsOffset = Vector3.new(0, 2.5, 0)
+    billboardGui.MaxDistance = math.huge
+    billboardGui.Parent = head
+    billboardGui.AlwaysOnTop = true
+
+    local nameLabel = Instance.new("TextLabel")
+    nameLabel.Size = UDim2.new(1, 0, 0.3, 0)
+    nameLabel.Position = UDim2.new(0, 0, 0, 0)
+    nameLabel.BackgroundTransparency = 1
+    nameLabel.TextScaled = true
+    nameLabel.Font = Enum.Font.GothamBold
+    nameLabel.TextColor3 = Color3.fromRGB(255, 255, 0)
+    nameLabel.TextStrokeTransparency = 0.2
+    nameLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+    nameLabel.Text = player.Name
+    nameLabel.Parent = billboardGui
+
+    local leaderstatsLabel = Instance.new("TextLabel")
+    leaderstatsLabel.Size = UDim2.new(1, 0, 0.3, 0)
+    leaderstatsLabel.Position = UDim2.new(0, 0, 0.35, 0)
+    leaderstatsLabel.BackgroundTransparency = 1
+    leaderstatsLabel.TextScaled = true
+    leaderstatsLabel.Font = Enum.Font.GothamBold
+    leaderstatsLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
+    leaderstatsLabel.TextStrokeTransparency = 0.2
+    leaderstatsLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+    leaderstatsLabel.Text = "" 
+    leaderstatsLabel.Parent = billboardGui
+
+    local healthText = Instance.new("TextLabel")
+    healthText.Size = UDim2.new(1, 0, 0.3, 0)
+    healthText.Position = UDim2.new(0, 0, 0.7, 0)
+    healthText.BackgroundTransparency = 1
+    healthText.TextScaled = true
+    healthText.Font = Enum.Font.GothamBold
+    healthText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    healthText.TextStrokeTransparency = 0.2
+    healthText.TextStrokeColor3 = Color3.new(0, 0, 0)
+    healthText.Parent = billboardGui
+
+    local function updateDisplay()
+        if humanoid and humanoid.Health > 0 then
+            healthText.Text = tostring(math.floor(humanoid.Health)) .. " HP"
+        else
+            billboardGui:Destroy()
+            return
+        end
+
+        local leaderstats = player:FindFirstChild("leaderstats")
+        if leaderstats then
+            local statsText = ""
+            for _, stat in pairs(leaderstats:GetChildren()) do
+                if stat:IsA("IntValue") or stat:IsA("StringValue") or stat:IsA("NumberValue") then
+                    statsText = statsText .. stat.Name .. ": " .. tostring(stat.Value) .. "  "
+                end
+            end
+            leaderstatsLabel.Text = statsText
+        else
+            leaderstatsLabel.Text = ""
+        end
+    end
+
+    local connection
+    connection = RunService.Heartbeat:Connect(function()
+        if not espEnabled or not player or not player.Parent or not character.Parent then
+            billboardGui:Destroy()
+            connection:Disconnect()
+            return
+        end
+        updateDisplay()
+    end)
+
+    updateDisplay()
+end
+
+local function onPlayerAdded(player)
+    local function onCharacterAdded(character)
+        task.wait(0.5) 
+        if espEnabled then
+            hideDefaultNameTag(character)
+            createHealthDisplay(player)
+        end
+    end
+
+    player.CharacterAdded:Connect(onCharacterAdded)
+    if player.Character then
+        onCharacterAdded(player.Character)
+    end
+end
+
+local function onPlayerRemoving(player)
+    if player.Character then
+        local head = player.Character:FindFirstChild("Head")
+        if head then
+            local billboardGui = head:FindFirstChildOfClass("BillboardGui")
+            if billboardGui then
+                billboardGui:Destroy()
+            end
+        end
+    end
+end
+
+--Function
+
+ESPsMain:CreateToggle("All ESPs", function(Value)
+        ESPEnabled = Value
+        if Value then
+            UpdateESP()
+            coroutine.wrap(AutoUpdateESP)()
+        else
+            ClearESP()
+        end
+end)
+
+ESPsMain:CreateToggle("Player ESP", function(state)
+        espEnabled = state
+        if state then
+            for _, player in ipairs(Players:GetPlayers()) do
+                if player ~= Players.LocalPlayer then 
+                    if player.Character then
+                        createHealthDisplay(player)
+                    end
+                end
+            end
+        else
+            for _, player in ipairs(Players:GetPlayers()) do
+                if player.Character then
+                    local head = player.Character:FindFirstChild("Head")
+                    if head then
+                        local billboardGui = head:FindFirstChildOfClass("BillboardGui")
+                        if billboardGui then
+                            billboardGui:Destroy()
+                        end
+                    end
+                end
+            end
+        end
+end)
+
+ESPsMain:CreateButton("Building + Zombies", function()
+        local buildingsFolder = game.Workspace:FindFirstChild("RandomBuildings")
+
+        if not buildingsFolder then
+            warn("Folder not found")
+            return
+        end
+        
+        local function ensurePrimaryPart(model)
+            if not model.PrimaryPart then
+                for _, part in ipairs(model:GetChildren()) do
+                    if part:IsA("BasePart") then
+                        model.PrimaryPart = part
+                        break
+                    end
+                end
+            end
+        end
+        
+        local function countZombies(model)
+            local zombiePart = model:FindFirstChild("StandaloneZombiePart")
+            if not zombiePart then 
+                return 0 
+            end
+            
+            local zombieFolder = zombiePart:FindFirstChild("Zombies")
+            if not zombieFolder then 
+                return 0 
+            end
+            
+            local count = 0
+            for _, item in ipairs(zombieFolder:GetChildren()) do
+                if item:IsA("Model") then
+                    count = count + 1
+                end
+            end
+            return count
+        end
+        
+        local function createBillboard(model, text, offset, name)
+            local primaryPart = model.PrimaryPart
+            if not primaryPart then return nil end
+        
+            local oldGui = model:FindFirstChild(name)
+            if oldGui then oldGui:Destroy() end
+        
+            local billboardGui = Instance.new("BillboardGui")
+            billboardGui.Name = name
+            billboardGui.Size = UDim2.new(50, 0, 15, 0)
+            billboardGui.StudsOffset = Vector3.new(0, offset, 0)
+            billboardGui.Adornee = primaryPart
+            billboardGui.AlwaysOnTop = true
+            billboardGui.Parent = model
+        
+            local textLabel = Instance.new("TextLabel")
+            textLabel.Size = UDim2.new(1, 0, 1, 0)
+            textLabel.BackgroundTransparency = 1
+            textLabel.TextScaled = true
+            textLabel.TextColor3 = Color3.new(1, 1, 0)
+            textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+            textLabel.TextStrokeTransparency = 0
+            textLabel.Font = Enum.Font.GothamBlack
+            textLabel.Text = text
+            textLabel.Parent = billboardGui
+            
+            return billboardGui
+        end
+        
+        local function updateZombieCount(model)
+            local zombieGui = model:FindFirstChild("ZombieCounter")
+            if zombieGui then
+                local textLabel = zombieGui:FindFirstChildOfClass("TextLabel")
+                if textLabel then
+                    local count = countZombies(model)
+                    textLabel.Text = "Zombies: " .. count
+                    return count
+                end
+            end
+            return 0
+        end
+        
+        local function setupModel(model)
+            if not model:IsA("Model") then return end
+            
+            ensurePrimaryPart(model)
+            
+            local zombieCount = countZombies(model)
+            local zombieGui = createBillboard(model, "Zombies: " .. zombieCount, 50, "ZombieCounter")
+            createBillboard(model, model.Name, 65, "ModelName")
+            
+            task.spawn(function()
+                local attempts = 0
+                local maxAttempts = 5
+                local lastCount = 0
+                
+                while attempts < maxAttempts do
+                    local currentCount = updateZombieCount(model)
+                    if currentCount > 0 and currentCount == lastCount then
+                        break
+                    end
+                    lastCount = currentCount
+                    attempts = attempts + 1
+                    task.wait(0.5)
+                end
+            end)
+            
+            local zombiePart = model:FindFirstChild("StandaloneZombiePart")
+            if zombiePart then
+                local zombieFolder = zombiePart:FindFirstChild("Zombies")
+                if zombieFolder then
+                    zombieFolder.ChildAdded:Connect(function()
+                        if zombieGui then
+                            updateZombieCount(model)
+                        end
+                    end)
+                    
+                    zombieFolder.ChildRemoved:Connect(function()
+                        if zombieGui then
+                            updateZombieCount(model)
+                        end
+                    end)
+                end
+            end
+            
+            model:GetPropertyChangedSignal("Name"):Connect(function()
+                local nameGui = model:FindFirstChild("ModelName")
+                if nameGui then
+                    local textLabel = nameGui:FindFirstChildOfClass("TextLabel")
+                    if textLabel then
+                        textLabel.Text = model.Name
+                    end
+                end
+            end)
+        end
+        
+        local function cleanupModels()
+            for _, child in ipairs(buildingsFolder:GetChildren()) do
+                if child:IsA("BillboardGui") then
+                    if not child.Parent or not child.Parent:IsA("Model") then
+                        child:Destroy()
+                    end
+                end
+            end
+        end
+        
+        local function refreshModels()
+            cleanupModels()
+            for _, model in ipairs(buildingsFolder:GetChildren()) do
+                setupModel(model)
+            end
+        end
+        
+        refreshModels()
+        
+        buildingsFolder.ChildAdded:Connect(function(model)
+            task.wait(0.1)
+            setupModel(model)
+        end)
+        
+        buildingsFolder.ChildRemoved:Connect(function()
+            task.wait(0.1)
+            cleanupModels()
+        end)
+end)
+
+for _, player in ipairs(Players:GetPlayers()) do
+        onPlayerAdded(player)
+end
+    
+Players.PlayerAdded:Connect(onPlayerAdded)
+Players.PlayerRemoving:Connect(onPlayerRemoving)
+
+ESPsMain:CreateToggle("Items ESP", function(state)
+    ItemsESPEnabled = state
+    UpdateESP2()
+end)
+
+HelperMain:CreateButton("Normal Time", function()
+    local textLabel = game.Workspace.Train.TrainControls.TimeDial.SurfaceGui:WaitForChild("TextLabel")
+    
+    -- Включаем автоизменение размера текста и поддержку многострочного режима
+    textLabel.TextScaled = true
+    textLabel.TextWrapped = true
+
+    local function getMinutesUntilChange(hour, minute, ampm)
+        local totalMinutes = hour * 60 + minute -- Перевод времени в минуты
+
+        if ampm == "AM" then
+            if hour >= 5 and hour < 9 then
+                return ((9 * 60) - totalMinutes), "До ночи минут: "
+            end
+        elseif ampm == "PM" then
+            if hour >= 9 or hour < 5 then
+                local targetHour = 5
+                local targetMinutes = (targetHour * 60)
+                
+                if hour >= 9 then
+                    targetMinutes = targetMinutes + (24 * 60) -- Переход на следующий день
+                end
+
+                return (targetMinutes - totalMinutes), "До дня минут: "
+            end
+        end
+
+        return nil, nil
+    end
+
+    local function updateLabel()
+        while true do
+            local text = textLabel.Text
+            local hour, minute, ampm = text:match("(%d+):(%d+) (%a+)")
+            
+            if hour and minute and ampm then
+                hour = tonumber(hour)
+                minute = tonumber(minute)
+
+                local minutesUntil, prefix = getMinutesUntilChange(hour, minute, ampm)
+                if minutesUntil then
+                    textLabel.Text = prefix .. minutesUntil
+                end
+            end
+
+            wait(1) -- Обновление каждую секунду
+        end
+    end
+
+    updateLabel()
+end)
+
+HelperMain:CreateButton("IY", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
