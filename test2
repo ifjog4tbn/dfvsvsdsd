@@ -1,4 +1,43 @@
 {
+    "Fire foxy": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://102538070830038",
+        "Rarity": "Celestial",
+        "PlacePrice": 25000,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 12500,
+                "Cooldown": 1
+            },
+            {
+                "Price": 35000,
+                "Range": 45,
+                "Damage": 16500,
+                "Cooldown": 0.75
+            },
+            {
+                "Price": 40000,
+                "Range": 55,
+                "Damage": 18500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 50000,
+                "Range": 60,
+                "Damage": 23000,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "Android Mangle": {
         "Type": "Splash",
         "Image": "rbxassetid://114065925105074",
