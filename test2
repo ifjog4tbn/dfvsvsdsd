@@ -1,4 +1,43 @@
 {
+    "Invincible Fire Foxy": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://77818393776025",
+        "Rarity": "Unique",
+        "PlacePrice": 35000,
+        "Max": 2,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 40,
+                "Damage": 800,
+                "Cooldown": 0.07
+            },
+            {
+                "Price": 45000,
+                "Range": 55,
+                "Damage": 1100,
+                "Cooldown": 0.06
+            },
+            {
+                "Price": 50000,
+                "Range": 65,
+                "Damage": 1500,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 60000,
+                "Range": 70,
+                "Damage": 3000,
+                "Cooldown": 0.04
+            }
+        ]
+    },
     "Fire foxy": {
         "Type": "Pierce",
         "Image": "rbxassetid://102538070830038",
