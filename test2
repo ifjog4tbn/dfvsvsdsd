@@ -1,4 +1,52 @@
 {
+        "Speed Dial": {
+        "Type": "Splash + Summoner",
+        "Image": "rbxassetid://76229204396312",
+        "Rarity": "Apex",
+        "PlacePrice": 27000,
+        "Offset": 0.5,
+        "Max": 2,
+        "NoEnemyAttack": true,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 27,
+                "Damage": 5000,
+                "Unit": "Clone Guy",
+                "Health": 500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 32000,
+                "Range": 29,
+                "Damage": 6000,
+                "Unit": "Clone Guy",
+                "Health": 500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 40000,
+                "Range": 31,
+                "Damage": 7000,
+                "Unit": "Clone Guy",
+                "Health": 500,
+                "Cooldown": 0.5
+            },
+            {
+                "Price": 50000,
+                "Range": 33,
+                "Damage": 9000,
+                "Unit": "Clone Guy",
+                "Health": 500,
+                "Cooldown": 0.5
+            }
+        ]
+    },
     "Invincible Fire Foxy": {
         "Type": "Pierce",
         "Image": "rbxassetid://77818393776025",
