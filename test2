@@ -1,4 +1,37 @@
 {
+    "Train": {
+        "Type": "Single",
+        "Image": "rbxassetid://126564784633101",
+        "Rarity": "Apex",
+        "PlacePrice": 35000,
+        "Max": 1,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 7,
+                "Damage": 25000,
+                "Cooldown": 15
+            },
+            {
+                "Price": 20000,
+                "Range": 12,
+                "Damage": 50000,
+                "Cooldown": 10
+            },
+            {
+                "Price": 100000,
+                "Range": 15,
+                "Damage": 150000,
+                "Cooldown": 7
+            }
+        ]
+    },
     "Outlaw": {
         "Type": "Single",
         "Image": "rbxassetid://124465245172483",
