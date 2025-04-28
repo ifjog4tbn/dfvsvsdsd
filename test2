@@ -1,4 +1,43 @@
 {
+    "Outlaw": {
+        "Type": "Single",
+        "Image": "rbxassetid://124465245172483",
+        "Rarity": "Mythic",
+        "PlacePrice": 1500,
+        "Max": 3,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 13,
+                "Damage": 7500,
+                "Cooldown": 5
+            },
+            {
+                "Price": 10000,
+                "Range": 16,
+                "Damage": 12000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 20000,
+                "Range": 15,
+                "Damage": 15000,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 50000,
+                "Range": 17,
+                "Damage": 30000,
+                "Cooldown": 1.5
+            }
+        ]
+    },
     "Wolf": {
         "Type": "Single",
         "Image": "rbxassetid://101507821887859",
