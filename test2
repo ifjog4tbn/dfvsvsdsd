@@ -1,4 +1,43 @@
 {
+    "Wolf": {
+        "Type": "Single",
+        "Image": "rbxassetid://101507821887859",
+        "Rarity": "Epic",
+        "PlacePrice": 350,
+        "Max": 5,
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 10,
+                "Damage": 800,
+                "Cooldown": 2
+            },
+            {
+                "Price": 1000,
+                "Range": 12,
+                "Damage": 1200,
+                "Cooldown": 1
+            },
+            {
+                "Price": 2000,
+                "Range": 15,
+                "Damage": 2500,
+                "Cooldown": 0.6
+            },
+            {
+                "Price": 5000,
+                "Range": 17,
+                "Damage": 5000,
+                "Cooldown": 0.4
+            }
+        ]
+    },
     "Speed Dial": {
         "Type": "Splash + Summoner",
         "Image": "rbxassetid://76229204396312",
