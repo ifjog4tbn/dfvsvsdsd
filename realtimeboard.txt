@@ -1,5 +1,5 @@
           Hello guys! [rgb(255,0,0)]
-          16.05.2025
+16.05.2025
        Today I updated: [rgb(0,0,255)]
 1. Fixed train in SCP mode. [rgb(0,255,0)]
 2. Added real-time board. [rgb(255,255,0)]
