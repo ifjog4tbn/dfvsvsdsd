@@ -4,4 +4,4 @@ Today I updated: [rgb(0,0,255)]
 1. Fixed train in SCP mode. [rgb(0,255,0)]
 2. Added real-time board. [rgb(255,255,0)]
 3. In-game I increased bonds random count.
-btw today my birthday!
+btw today my birthday! [rgb(255,192,203)]
