@@ -1,7 +1,4 @@
-Hello guys! [rgb(255,0,0)]
-16.05.2025
+17.05.2025
 Today I updated: [rgb(0,0,255)]
-1. Fixed train in SCP mode. [rgb(0,255,0)]
-2. Added real-time board. [rgb(255,255,0)]
-3. In-game I increased bonds random count.
-btw today my birthday! [rgb(255,192,203)]
+1. Maybe train micro fixed. [rgb(0,255,0)]
+2. Fixed new items bonds shop description. [rgb(255,255,0)]
