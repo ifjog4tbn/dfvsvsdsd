@@ -1,5 +1,5 @@
-17.05.2025
+18.05.2025
 Today I updated: [rgb(0,0,255)]
-1. Maybe train micro fixed. [rgb(0,255,0)]
-2. Fixed new items bonds shop description. [rgb(255,255,0)]
-new video https://youtu.be/X66rlrsXZ40
+1. Quests added. (Luggy but soon maybe I fix that) [rgb(0,255,0)]
+2. More bonds in SCP. [rgb(255,255,0)]
+3. More damage for axe.
