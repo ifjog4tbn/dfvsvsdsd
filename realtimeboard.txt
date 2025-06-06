@@ -1,4 +1,4 @@
 19.05.2025
-Today I updated: [rgb(0,0,255)]
-1. Fully lobby optimization. [rgb(0,255,0)]
-2. Fixed "Use" button in-game for mobile, If it does not work, send report message.
+Today: [rgb(0,0,255)]
+1. Public test Beta Version. [rgb(0,255,0)]
+2. Bugs fix.
