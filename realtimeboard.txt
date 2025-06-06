@@ -1,4 +1,4 @@
-19.05.2025
+06.06.2025
 Today: [rgb(0,0,255)]
 1. Public test Beta Version. [rgb(0,255,0)]
 2. Bugs fix.
