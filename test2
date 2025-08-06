@@ -1,4 +1,103 @@
 {
+    "Molten Serpent": {
+        "Type": "Single",
+        "Image": "rbxassetid://125846840665791",
+        "Rarity": "Nightmare",
+        "PlacePrice": 35000,
+        "Offset": -3.7,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 40000,
+                "Cooldown": 5,
+                "Bleed": 0,
+                "BleedTime": 1
+            },
+            {
+                "Price": 40000,
+                "Range": 27,
+                "Damage": 50000,
+                "Cooldown": 5,
+                "Bleed": 0,
+                "BleedTime": 1
+            },
+            {
+                "Price": 45000,
+                "Range": 29,
+                "Damage": 60000,
+                "Cooldown": 5,
+                "Bleed": 0,
+                "BleedTime": 1
+            },
+            {
+                "Price": 50000,
+                "Range": 32,
+                "Damage": 70000,
+                "Cooldown": 5,
+                "Bleed": 0,
+                "BleedTime": 1
+            }
+        ]
+    },
+    "El Jellychip": {
+        "Type": "AOE",
+        "Image": "rbxassetid://136969034043541",
+        "Rarity": "Secret",
+        "PlacePrice": 12000,
+        "Offset": 0.3,
+        "Max": 5,
+        "NoEnemyAttack": true,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 6000,
+                "Cooldown": 2.5,
+                "CooldownBoost": 0.9,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 14000,
+                "Range": 22,
+                "Damage": 7400,
+                "Cooldown": 2.5,
+                "CooldownBoost": 0.82,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 16000,
+                "Range": 25,
+                "Damage": 8800,
+                "Cooldown": 2.5,
+                "CooldownBoost": 0.78,
+                "Slow": 0,
+                "SlowTime": 0.5
+            },
+            {
+                "Price": 18000,
+                "Range": 28,
+                "Damage": 10000,
+                "Cooldown": 2.5,
+                "CooldownBoost": 0.73,
+                "Slow": 0,
+                "SlowTime": 0.5
+            }
+        ]
+    },
     "Train": {
         "Type": "Single",
         "Image": "rbxassetid://126564784633101",
