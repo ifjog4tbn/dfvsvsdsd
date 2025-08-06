@@ -1,4 +1,43 @@
 {
+    "Sun Guardian Freddy": {
+        "Type": "AOE",
+        "Image": "rbxassetid://134863215965587",
+        "Rarity": "Nightmare",
+        "PlacePrice": 29000,
+        "Offset": 0,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 31000,
+                "Cooldown": 3
+            },
+            {
+                "Price": 30000,
+                "Range": 28,
+                "Damage": 30000,
+                "Cooldown": 2.8
+            },
+            {
+                "Price": 31000,
+                "Range": 32,
+                "Damage": 36000,
+                "Cooldown": 2.7
+            },
+            {
+                "Price": 32000,
+                "Range": 35,
+                "Damage": 45500,
+                "Cooldown": 2.6
+            }
+        ]
+    },
     "Molten Serpent": {
         "Type": "Single",
         "Image": "rbxassetid://125846840665791",
@@ -16,33 +55,25 @@
                 "Price": 0,
                 "Range": 25,
                 "Damage": 40000,
-                "Cooldown": 5,
-                "Bleed": 0,
-                "BleedTime": 1
+                "Cooldown": 5
             },
             {
                 "Price": 40000,
                 "Range": 27,
                 "Damage": 50000,
-                "Cooldown": 5,
-                "Bleed": 0,
-                "BleedTime": 1
+                "Cooldown": 5
             },
             {
                 "Price": 45000,
                 "Range": 29,
                 "Damage": 60000,
-                "Cooldown": 5,
-                "Bleed": 0,
-                "BleedTime": 1
+                "Cooldown": 5
             },
             {
                 "Price": 50000,
                 "Range": 32,
                 "Damage": 70000,
-                "Cooldown": 5,
-                "Bleed": 0,
-                "BleedTime": 1
+                "Cooldown": 5
             }
         ]
     },
