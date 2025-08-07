@@ -94,38 +94,26 @@
             {
                 "Price": 0,
                 "Range": 20,
-                "Damage": 6000,
-                "Cooldown": 2.5,
-                "CooldownBoost": 0.9,
-                "Slow": 0,
-                "SlowTime": 0.5
+                "Damage": 7000,
+                "Cooldown": 2.7
             },
             {
                 "Price": 14000,
                 "Range": 22,
-                "Damage": 7400,
-                "Cooldown": 2.5,
-                "CooldownBoost": 0.82,
-                "Slow": 0,
-                "SlowTime": 0.5
+                "Damage": 9500,
+                "Cooldown": 2.5
             },
             {
                 "Price": 16000,
                 "Range": 25,
-                "Damage": 8800,
-                "Cooldown": 2.5,
-                "CooldownBoost": 0.78,
-                "Slow": 0,
-                "SlowTime": 0.5
+                "Damage": 11000,
+                "Cooldown": 2.5
             },
             {
                 "Price": 18000,
                 "Range": 28,
-                "Damage": 10000,
-                "Cooldown": 2.5,
-                "CooldownBoost": 0.73,
-                "Slow": 0,
-                "SlowTime": 0.5
+                "Damage": 15000,
+                "Cooldown": 2.5
             }
         ]
     },
