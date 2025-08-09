@@ -1,4 +1,160 @@
 {
+    "Aquatic Ballora": {
+        "Type": "Pierce Spread",
+        "Image": "rbxassetid://109953928431580",
+        "Rarity": "Apex",
+        "PlacePrice": 22000,
+        "Offset": 0.4,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 14000,
+                "Cooldown": 2.2
+            },
+            {
+                "Price": 25000,
+                "Range": 28,
+                "Damage": 17000,
+                "Cooldown": 2
+            },
+            {
+                "Price": 28000,
+                "Range": 32,
+                "Damage": 21000,
+                "Cooldown": 1.9
+            },
+            {
+                "Price": 31000,
+                "Range": 35,
+                "Damage": 28100,
+                "Cooldown": 1.8
+            }
+        ]
+    },
+    "Heatwave Sun": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://75319446250390",
+        "Rarity": "Mythic",
+        "PlacePrice": 4500,
+        "Offset": 1,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 22,
+                "Damage": 4350,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 6000,
+                "Range": 24,
+                "Damage": 5500,
+                "Cooldown": 1.6
+            },
+            {
+                "Price": 7500,
+                "Range": 26,
+                "Damage": 6500,
+                "Cooldown": 1.4
+            },
+            {
+                "Price": 9000,
+                "Range": 28,
+                "Damage": 7950,
+                "Cooldown": 1.2
+            }
+        ]
+    },
+    "Sandy Helpy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://133012407919193",
+        "Rarity": "Epic",
+        "PlacePrice": 350,
+        "Offset": -1,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 350,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 500,
+                "Range": 18,
+                "Damage": 400,
+                "Cooldown": 1.3
+            },
+            {
+                "Price": 1000,
+                "Range": 20,
+                "Damage": 450,
+                "Cooldown": 1.1
+            },
+            {
+                "Price": 1500,
+                "Range": 22,
+                "Damage": 1000,
+                "Cooldown": 1
+            }
+        ]
+    },
+    "Tropic Terror Duo": {
+        "Type": "Splash",
+        "Image": "rbxassetid://99621129596373",
+        "Rarity": "Cosmic",
+        "PlacePrice": 33333,
+        "Offset": 0.5,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 28,
+                "Damage": 17000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 44444,
+                "Range": 32,
+                "Damage": 21000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 55555,
+                "Range": 35,
+                "Damage": 24000,
+                "Cooldown": 0.9
+            },
+            {
+                "Price": 66666,
+                "Range": 38,
+                "Damage": 28000,
+                "Cooldown": 0.8
+            }
+        ]
+    },
     "Into the Pool": {
         "Type": "AOE",
         "Image": "rbxassetid://131726719551115",
