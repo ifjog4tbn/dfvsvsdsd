@@ -1,4 +1,82 @@
 {
+    "Into the Pool": {
+        "Type": "AOE",
+        "Image": "rbxassetid://131726719551115",
+        "Rarity": "Nightmare",
+        "PlacePrice": 50000,
+        "Offset": 0,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 28,
+                "Damage": 56000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 60000,
+                "Range": 32,
+                "Damage": 72000,
+                "Cooldown": 4
+            },
+            {
+                "Price": 70000,
+                "Range": 35,
+                "Damage": 85000,
+                "Cooldown": 3.9
+            },
+            {
+                "Price": 80000,
+                "Range": 38,
+                "Damage": 118000,
+                "Cooldown": 3
+            }
+        ]
+    },
+    "Waterworks Foxy": {
+        "Type": "Splash",
+        "Image": "rbxassetid://121168642208042",
+        "Rarity": "Nightmare",
+        "PlacePrice": 3000,
+        "Offset": -1,
+        "Max": 1,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 22,
+                "Damage": 300,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 4000,
+                "Range": 24,
+                "Damage": 600,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 5000,
+                "Range": 27,
+                "Damage": 900,
+                "Cooldown": 0.25
+            },
+            {
+                "Price": 6000,
+                "Range": 30,
+                "Damage": 2200,
+                "Cooldown": 0.25
+            }
+        ]
+    },
     "Sun Guardian Freddy": {
         "Type": "AOE",
         "Image": "rbxassetid://134863215965587",
