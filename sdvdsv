@@ -282,7 +282,7 @@
                 "Price": 0,
                 "Range": 27,
                 "Damage": 20000,
-                "Cooldown": 2.2,
+                "Cooldown": 3.2,
                 "Slow": 0,
                 "SlowTime": 0.5
             },
@@ -290,7 +290,7 @@
                 "Price": 40000,
                 "Range": 28,
                 "Damage": 25000,
-                "Cooldown": 2.2,
+                "Cooldown": 3,
                 "Slow": 0,
                 "SlowTime": 0.5
             },
@@ -298,7 +298,7 @@
                 "Price": 45000,
                 "Range": 29,
                 "Damage": 35000,
-                "Cooldown": 2.2,
+                "Cooldown": 2.5,
                 "Slow": 0,
                 "SlowTime": 0.5
             },
@@ -306,7 +306,7 @@
                 "Price": 50000,
                 "Range": 32,
                 "Damage": 40000,
-                "Cooldown": 2.2,
+                "Cooldown": 2,
                 "Slow": 0,
                 "SlowTime": 0.5
             }
@@ -472,7 +472,7 @@
         "Type": "Single",
         "Image": "rbxassetid://120446334712341",
         "Rarity": "Nightmare",
-        "PlacePrice": 100,
+        "PlacePrice": 1000,
         "Offset": 0,
         "Max": 1,
         "hitboxOffset": {
@@ -484,8 +484,8 @@
             {
                 "Price": 0,
                 "Range": 25,
-                "Damage": 1100,
-                "Cooldown": 1
+                "Damage": 1600,
+                "Cooldown": 2
             }
         ]
     },
@@ -1284,31 +1284,31 @@
                 "Price": 0,
                 "Range": 35,
                 "Damage": 450,
-                "Cooldown": 0.05
+                "Cooldown": 0.7
             },
             {
                 "Price": 40000,
                 "Range": 45,
                 "Damage": 900,
-                "Cooldown": 0.05
+                "Cooldown": 0.4
             },
             {
                 "Price": 45000,
                 "Range": 45,
                 "Damage": 950,
-                "Cooldown": 0.05
+                "Cooldown": 0.3
             },
             {
                 "Price": 49000,
                 "Range": 50,
                 "Damage": 3500,
-                "Cooldown": 0.03
+                "Cooldown": 0.2
             },
             {
                 "Price": 50000,
                 "Range": 55,
                 "Damage": 4500,
-                "Cooldown": 0.03
+                "Cooldown": 0.1
             }
         ]
     },
@@ -4600,7 +4600,7 @@
             }
         ]
     },
-"SpacePuppet": {
+    "SpacePuppet": {
         "Type": "Splash",
         "Image": "rbxassetid://133820914426906",
         "Rarity": "Modded",
@@ -4617,13 +4617,13 @@
                 "Price": 0,
                 "Range": 30,
                 "Damage": 1000,
-                "Cooldown": 2.534
+                "Cooldown": 5
             },
             {
                 "Price": 20000,
                 "Range": 45,
                 "Damage": 1500,
-                "Cooldown": 1.467
+                "Cooldown": 7
             }
         ]
     },
