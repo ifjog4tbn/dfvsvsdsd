@@ -1530,7 +1530,7 @@
             {
                 "Price": 0,
                 "Range": 30,
-                "Damage": 7500,
+                "Damage": 100,
                 "Cooldown": 0.6,
                 "Slow": 0.4
             },
@@ -1544,14 +1544,14 @@
             {
                 "Price": 12000,
                 "Range": 25,
-                "Damage": 350,
+                "Damage": 3000,
                 "Cooldown": 0.6,
                 "Slow": 0.4
             },
             {
                 "Price": 16000,
                 "Range": 65,
-                "Damage": 520,
+                "Damage": 7000,
                 "Cooldown": 0.6,
                 "Slow": 0.4
             }
