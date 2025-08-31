@@ -1,4 +1,31 @@
 {
+    "The Cook Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://123026764465221",
+        "Rarity": "Epic",
+        "PlacePrice": 500,
+        "Offset": 0.4,
+        "Max": 5,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 5,
+                "Damage": 100,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1000,
+                "Range": 15,
+                "Damage": 700,
+                "Cooldown": 0.9
+            }
+        ]
+    },
     "Aquatic Ballora": {
         "Type": "Pierce Spread",
         "Image": "rbxassetid://109953928431580",
