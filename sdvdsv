@@ -5,7 +5,7 @@
         "Rarity": "Modded",
         "PlacePrice": 10000,
         "Offset": 0,
-        "Max": 5,
+        "Max": 2,
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -15,26 +15,26 @@
             {
                 "Price": 0,
                 "Range": 5,
-                "Damage": 3200,
+                "Damage": 13200,
                 "Cooldown": 3
             },
             {
                 "Price": 2500,
                 "Range": 8,
-                "Damage": 6000,
+                "Damage": 26000,
                 "Cooldown": 2.7
             },
             {
                 "Price": 3000,
                 "Range": 12,
-                "Damage": 10000,
+                "Damage": 30000,
                 "Cooldown": 2.1
             },
             {
                 "Price": 1000,
                 "Range": 30,
-                "Damage": 25000,
-                "Cooldown": 1.5
+                "Damage": 55000,
+                "Cooldown": 1
             }
         ]
     },
